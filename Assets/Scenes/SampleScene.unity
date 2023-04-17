@@ -328,6 +328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 812872298}
   - component: {fileID: 812872297}
+  - component: {fileID: 812872299}
   m_Layer: 0
   m_Name: StageTraining
   m_TagString: Untagged
@@ -402,6 +403,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &812872299
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812872296}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f36f2e70c9df84e4bbbe7c8212924e2f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1092783429
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,6 +710,7 @@ GameObject:
   - component: {fileID: 1889377474}
   - component: {fileID: 1889377475}
   - component: {fileID: 1889377476}
+  - component: {fileID: 1889377477}
   m_Layer: 0
   m_Name: Ace__1_-removebg-preview_0
   m_TagString: Untagged
@@ -883,3 +906,18 @@ CapsuleCollider2D:
   m_Offset: {x: -0.016216721, y: 0}
   m_Size: {x: 0.5678317, y: 0.73007464}
   m_Direction: 0
+--- !u!114 &1889377477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889377468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 526fb5a49be6855468f6a6e515a68651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animacao: {fileID: 0}
+  noOffClicks: 0
+  maxComboDelay: 0.9
