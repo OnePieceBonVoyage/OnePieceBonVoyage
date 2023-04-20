@@ -32,16 +32,16 @@ public class ComboHits : MonoBehaviour
                 animacao.SetBool("SocoFraco1", true);
             }
             
+            
             noOffClicks= Mathf.Clamp(noOffClicks,0,3);
         }
     }
 
     public void return1()
     {
-        if(noOffClicks>= 2) 
+        if(noOffClicks == 2) 
         {
             animacao.SetBool("SocoFraco2", true);
-            animacao.SetBool("SocoFraco1", false);
         }
         else
         {
@@ -52,7 +52,7 @@ public class ComboHits : MonoBehaviour
 
     public void return2()
     {
-        if (noOffClicks >= 3)
+        if (noOffClicks == 3)
         {
             animacao.SetBool("SocoFraco3", true);
         }
