@@ -18,26 +18,54 @@ public class ComboHits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.time - lastClickedTime > maxComboDelay)
+        SocoFraco();
+    }
+
+    public void SocoFraco()
+    {
+        if (Time.time - lastClickedTime > maxComboDelay)
         {
             noOffClicks = 0;
             animacao.SetBool("SocoFraco1", false);
             animacao.SetBool("SocoFraco2", false);
-            
+
         }
 
         if (Input.GetKeyDown(KeyCode.T))
         {
-            lastClickedTime= Time.time;
+            lastClickedTime = Time.time;
             noOffClicks++;
-            if(noOffClicks == 1)
+            if (noOffClicks == 1)
             {
                 animacao.SetBool("SocoFraco1", true);
-                float travar = Time.time; 
             }
-            
-            
-            noOffClicks= Mathf.Clamp(noOffClicks,0,3);
+
+
+            noOffClicks = Mathf.Clamp(noOffClicks, 0, 3);
+        }
+    }
+
+    public void SocoForte()
+    {
+        if (Time.time - lastClickedTime > maxComboDelay)
+        {
+            noOffClicks = 0;
+            animacao.SetBool("SocoFraco1", false);
+            animacao.SetBool("SocoFraco2", false);
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            lastClickedTime = Time.time;
+            noOffClicks++;
+            if (noOffClicks == 1)
+            {
+                animacao.SetBool("SocoFraco1", true);
+            }
+
+
+            noOffClicks = Mathf.Clamp(noOffClicks, 0, 3);
         }
     }
 
