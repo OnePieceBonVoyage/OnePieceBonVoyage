@@ -46,7 +46,8 @@ public class ComboHits : MonoBehaviour
         else
         {
             animacao.SetBool("SocoFraco1", false);
-            noOffClicks= 0;
+            
+            noOffClicks = 0;
         }
     }
 
@@ -59,6 +60,7 @@ public class ComboHits : MonoBehaviour
         else
         {
             animacao.SetBool("SocoFraco2", false);
+            animacao.SetBool("SocoFraco1", false);
             noOffClicks = 0;
         }
     }
