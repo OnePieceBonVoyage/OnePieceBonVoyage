@@ -14,7 +14,7 @@ public class Jump : MonoBehaviour
 
 
 
-    private bool isGrounded()
+    public bool isGrounded()
     {
         return Physics2D.OverlapCapsule(
             CheckGround.position,
@@ -40,11 +40,13 @@ public class Jump : MonoBehaviour
     }
 
     
-    private void Pular()
+    public void Pular()
     {
 
-        if (Input.GetButtonDown("Jump") && isGrounded() && !Movimento.isDashing && !Movimento.isCrounch)
+        if (Input.GetButtonDown("Jump") && isGrounded() && !Movimento.isDashing && !Movimento.isCrounch )
         {
+            animacao.SetBool("SocoFraco1", false);
+            animacao.SetBool("SocoFraco2", false);
             jumpPower = 10;
             rb.gravityScale = 2;
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);

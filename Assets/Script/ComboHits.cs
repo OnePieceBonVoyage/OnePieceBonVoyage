@@ -7,7 +7,7 @@ public class ComboHits : MonoBehaviour
     public Animator animacao;
     public int noOffClicks = 0;
     float lastClickedTime = 0;
-    public float maxComboDelay = 0.9f;
+    public float maxComboDelay = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +21,9 @@ public class ComboHits : MonoBehaviour
         if(Time.time - lastClickedTime > maxComboDelay)
         {
             noOffClicks = 0;
+            animacao.SetBool("SocoFraco1", false);
+            animacao.SetBool("SocoFraco2", false);
+            
         }
 
         if (Input.GetKeyDown(KeyCode.T))
@@ -30,6 +33,7 @@ public class ComboHits : MonoBehaviour
             if(noOffClicks == 1)
             {
                 animacao.SetBool("SocoFraco1", true);
+                float travar = Time.time; 
             }
             
             
@@ -53,22 +57,8 @@ public class ComboHits : MonoBehaviour
 
     public void return2()
     {
-        if (noOffClicks == 3)
-        {
-            animacao.SetBool("SocoFraco3", true);
-        }
-        else
-        {
-            animacao.SetBool("SocoFraco2", false);
-            animacao.SetBool("SocoFraco1", false);
-            noOffClicks = 0;
-        }
-    }
-    public void return3()
-    {
         animacao.SetBool("SocoFraco1", false);
         animacao.SetBool("SocoFraco2", false);
-        animacao.SetBool("SocoFraco3", false);
         noOffClicks = 0;
     }
 }
