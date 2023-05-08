@@ -4,89 +4,41 @@ using UnityEngine;
 
 public class ComboHits : MonoBehaviour
 {
-    public Animator animacao;
-    public int noOffClicks = 0;
-    float lastClickedTime = 0;
-    public float maxComboDelay = 1f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        animacao= GetComponent<Animator>();
-    }
+    public Animator animacao;
+
+    public Transform Attackpoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+
 
     // Update is called once per frame
     void Update()
     {
-        SocoFraco();
-    }
-
-    public void SocoFraco()
-    {
-        if (Time.time - lastClickedTime > maxComboDelay)
-        {
-            noOffClicks = 0;
-            animacao.SetBool("SocoFraco1", false);
-            animacao.SetBool("SocoFraco2", false);
-
-        }
-
         if (Input.GetKeyDown(KeyCode.T))
         {
-            lastClickedTime = Time.time;
-            noOffClicks++;
-            if (noOffClicks == 1)
-            {
-                animacao.SetBool("SocoFraco1", true);
-            }
-
-
-            noOffClicks = Mathf.Clamp(noOffClicks, 0, 3);
+            SocoFraco();
         }
     }
 
-    public void SocoForte()
+    void SocoFraco()
     {
-        if (Time.time - lastClickedTime > maxComboDelay)
+        animacao.SetTrigger("SocoFraco");
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(Attackpoint.position, attackRange, enemyLayers);
+
+        foreach(Collider2D enemy in hitEnemies)
         {
-            noOffClicks = 0;
-            animacao.SetBool("SocoFraco1", false);
-            animacao.SetBool("SocoFraco2", false);
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            lastClickedTime = Time.time;
-            noOffClicks++;
-            if (noOffClicks == 1)
-            {
-                animacao.SetBool("SocoFraco1", true);
-            }
-
-
-            noOffClicks = Mathf.Clamp(noOffClicks, 0, 3);
+            enemy.GetComponent<Player2>().TakeDamage(2);
         }
     }
 
-    public void return1()
+    void OnDrawGizmos()
     {
-        if(noOffClicks == 2) 
-        {
-            animacao.SetBool("SocoFraco2", true);
-        }
-        else
-        {
-            animacao.SetBool("SocoFraco1", false);
-            
-            noOffClicks = 0;
-        }
+        if (Attackpoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(Attackpoint.position, attackRange);
     }
 
-    public void return2()
-    {
-        animacao.SetBool("SocoFraco1", false);
-        animacao.SetBool("SocoFraco2", false);
-        noOffClicks = 0;
-    }
 }
