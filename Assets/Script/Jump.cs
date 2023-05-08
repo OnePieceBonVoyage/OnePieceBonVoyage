@@ -10,10 +10,6 @@ public class Jump : MonoBehaviour
     public LayerMask GroundLayer;
     public Animator animacao;
 
-
-
-
-
     public bool isGrounded()
     {
         return Physics2D.OverlapCapsule(
@@ -35,11 +31,7 @@ public class Jump : MonoBehaviour
     void Update()
     {
         Pular();
-        AnimacaoPular();
-        
     }
-
-    
     public void Pular()
     {
 
@@ -50,21 +42,4 @@ public class Jump : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
         }
     }
-
-    private void AnimacaoPular()
-    {
-        animacao = gameObject.GetComponent<Animator>();
-        if (Input.GetButtonDown("Jump") && !Movimento.isDashing && !Movimento.isCrounch)
-        {
-            animacao.SetBool("Pulo", true);
-        }
-        else
-        {
-            animacao.SetBool("Pulo", false);
-        }
-    }
-
-    
-
-    
 }

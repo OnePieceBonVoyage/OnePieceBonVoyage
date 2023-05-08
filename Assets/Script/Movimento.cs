@@ -6,9 +6,8 @@ using UnityEngine;
 
 public class Movimento : MonoBehaviour
 {
-
     //Variaveis de movimento
-    private float horizontal;
+    public static float horizontal;
     private float speed = 5f;
     private bool isFacingRight = true;
     public Animator animacao;
@@ -16,12 +15,13 @@ public class Movimento : MonoBehaviour
     //Agachar variaveis
     public static bool isCrounch = false;
     private float vertical;
+
     //Variaveis de Dash
     private float dashDistance = 8f;
     public static bool isDashing;
-    
+
     private float doubleTapTime;
-    KeyCode lastKeyCode;
+    public static KeyCode lastKeyCode;
 
     public Transform CheckGround;
     public LayerMask GroundLayer;
@@ -38,29 +38,15 @@ public class Movimento : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
         animacao = gameObject.GetComponent<Animator>();
 
-        FazerAnimacaoDireita();
-        FazerAnimacaoEsquerda();
-        
         DarDashDireita();
-        AnimacaoDashDireita();
         DarDashEsquerda();
-        AnimacaoDashEsquerda();
-
-        Agachar();
-
-        
-
     }
 
     private void FixedUpdate()
     {
         if (!isDashing)
             rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-
     }
-
-
-
     private void Flip()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
@@ -72,79 +58,20 @@ public class Movimento : MonoBehaviour
         }
     }
 
-    private void FazerAnimacaoDireita()
-    {
-        if (horizontal > 0f)
-        {
-            animacao.SetBool("AndarDireita", true);
-
-        }
-        else
-        {
-            animacao.SetBool("AndarDireita", false);
-        }
-    }
-
-    private void FazerAnimacaoEsquerda()
-    {
-        if (horizontal < 0f)
-        {
-            animacao.SetBool("AndarEsquerda", true);
-
-
-        }
-        else
-        {
-            animacao.SetBool("AndarEsquerda", false);
-
-        }
-    }
-
-
     private void DarDashEsquerda()
     {
         //Dashing Left/Esquerda Teclado
         if (Input.GetKeyDown(KeyCode.A))
         {
-            if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A  && isGrounded() && !isCrounch)
+            if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A && isGrounded() && !isCrounch)
             {
                 StartCoroutine(dash(-1f));
-                
             }
             else
             {
                 doubleTapTime = Time.time + 0.5f;
-                
             }
-
             lastKeyCode = KeyCode.A;
-        }
-    }
-
-    private void AnimacaoDashDireita()
-    {
-        if (isDashing == true && lastKeyCode == KeyCode.D )
-        {
-            animacao.SetBool("DashDireita", true);
-            animacao.SetBool("AndarDireita", false);
-        }
-        else
-        {
-            animacao.SetBool("DashDireita", false);
-        }
-    }
-
-    private void AnimacaoDashEsquerda()
-    {
-        if (isDashing == true && lastKeyCode == KeyCode.A )
-        {
-            animacao.SetBool("DashEsquerda", true);
-            animacao.SetBool("AndarEsquerda", false);
-        }
-        else
-        {
-            animacao.SetBool("DashEsquerda", false);
-
         }
     }
 
@@ -157,17 +84,12 @@ public class Movimento : MonoBehaviour
             if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D && isGrounded() && !isCrounch)
             {
                 StartCoroutine(dash(1f));
-                
             }
             else
             {
                 doubleTapTime = Time.time + 0.5f;
-               
-                
             }
-
             lastKeyCode = KeyCode.D;
-            
         }
     }
     //Tentar fazer uma funçao para quando dar double tap fazer a animacao
@@ -183,24 +105,8 @@ public class Movimento : MonoBehaviour
         rb.gravityScale = gravity;
         yield return new WaitForSeconds(0.5f);
         isDashing = false;
-        
-    }
-
-    private void Agachar()
-    {
-        if(Input.GetButtonDown("Vertical"))
-        {
-            isCrounch = true;
-            animacao.SetBool("Agachar", true);   
-        }
-        else if(Input.GetButtonUp("Vertical"))
-        {
-            isCrounch = false;
-            animacao.SetBool("Agachar", false);
-        }
 
     }
-
 
     private bool isGrounded()
     {
@@ -212,6 +118,4 @@ public class Movimento : MonoBehaviour
             GroundLayer
         );
     }
-
-
 }
