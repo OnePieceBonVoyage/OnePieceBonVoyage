@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using UnityEngine;
 using System;
+using Unity.VisualScripting;
 
 public class ComboHits : MonoBehaviour
 {
@@ -19,13 +20,14 @@ public class ComboHits : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.time >= nextAttackTime)
+        if (Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.T))
             {
                 SocoFraco();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
+            
         }
 
         if (Player2.currentHealth <= 0 )
@@ -39,6 +41,7 @@ public class ComboHits : MonoBehaviour
 
     void SocoFraco()
     {
+        Movimento.horizontal.
         animacao.SetTrigger("SocoFraco");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(Attackpoint.position, attackRange, enemyLayers);
