@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Player2 : MonoBehaviour
 {
+    public Animator animacao;
     public int maxHealth = 100;
-    int currentHealth;  
+    public static int currentHealth;  
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,8 @@ public class Player2 : MonoBehaviour
     {
         currentHealth -= damage;
 
+        animacao.SetTrigger("Dano");
+
         if(currentHealth <= 0)
         {
             Die();
@@ -31,5 +34,12 @@ public class Player2 : MonoBehaviour
     void Die()
     {
         Debug.Log("Enemy died!");
+
+        animacao.SetBool("Morreu", true);
+
+        this.enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+
     }
+
 }

@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Movimento : MonoBehaviour
 {
+    
     //Variaveis de movimento
     public static float horizontal;
     private float speed = 5f;
