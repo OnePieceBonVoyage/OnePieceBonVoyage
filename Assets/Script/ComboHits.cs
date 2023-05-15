@@ -10,7 +10,7 @@ public class ComboHits : MonoBehaviour
 {
 
     public Animator animacao;
-
+    public static bool atacando = false;
     public Transform Attackpoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
@@ -22,6 +22,7 @@ public class ComboHits : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
+            GetComponent<Movimento>().enabled= true;
             if (Input.GetKeyDown(KeyCode.T))
             {
                 SocoFraco();
@@ -33,7 +34,6 @@ public class ComboHits : MonoBehaviour
         if (Player2.currentHealth <= 0 )
         {
             Winner();
-
         }
 
         
@@ -41,7 +41,7 @@ public class ComboHits : MonoBehaviour
 
     void SocoFraco()
     {
-        Movimento.horizontal.
+        GetComponent<Movimento>().enabled = false;
         animacao.SetTrigger("SocoFraco");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(Attackpoint.position, attackRange, enemyLayers);
@@ -50,6 +50,8 @@ public class ComboHits : MonoBehaviour
         {
             enemy.GetComponent<Player2>().TakeDamage(10);
         }
+
+        
     }
 
     void OnDrawGizmos()
