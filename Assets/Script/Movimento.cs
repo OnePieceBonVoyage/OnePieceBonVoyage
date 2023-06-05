@@ -11,7 +11,7 @@ public class Movimento : MonoBehaviour
     public static float horizontal;
     private float speed = 5f;
     private bool isFacingRight = true;
-    public Animator animacao;
+    public Animator animacao; 
 
     //Agachar variaveis
     public static bool isCrounch = false;
@@ -24,6 +24,9 @@ public class Movimento : MonoBehaviour
     private float doubleTapTime;
     public static KeyCode lastKeyCode;
 
+    //defender
+    public static bool isBlocking = false;
+
     public Transform CheckGround;
     public LayerMask GroundLayer;
 
@@ -33,7 +36,7 @@ public class Movimento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isCrounch)
+        if (!isCrounch && !isBlocking && !isDashing)
             horizontal = Input.GetAxisRaw("Horizontal");
 
         vertical = Input.GetAxisRaw("Vertical");
@@ -41,6 +44,7 @@ public class Movimento : MonoBehaviour
 
         DarDashDireita();
         DarDashEsquerda();
+        Defender();
     }
 
     private void FixedUpdate()
@@ -64,7 +68,7 @@ public class Movimento : MonoBehaviour
         //Dashing Left/Esquerda Teclado
         if (Input.GetKeyDown(KeyCode.A))
         {
-            if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A && isGrounded() && !isCrounch)
+            if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A && isGrounded() && !isCrounch && !isBlocking)
             {
                 StartCoroutine(dash(-1f));
             }
@@ -82,7 +86,7 @@ public class Movimento : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
 
-            if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D && isGrounded() && !isCrounch)
+            if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D && isGrounded() && !isCrounch && !isBlocking)
             {
                 StartCoroutine(dash(1f));
             }
@@ -118,5 +122,19 @@ public class Movimento : MonoBehaviour
             0,
             GroundLayer
         );
+    }
+
+    public void Defender()
+    {
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            isBlocking= true;
+            animacao.SetBool("Defender", true);
+        }
+        else if (Input.GetKeyUp(KeyCode.G))
+        {
+            isBlocking= false;
+            animacao.SetBool("Defender", false);
+        }
     }
 }

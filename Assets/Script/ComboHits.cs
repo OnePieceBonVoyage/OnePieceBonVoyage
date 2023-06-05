@@ -28,6 +28,12 @@ public class ComboHits : MonoBehaviour
                 SocoFraco();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
+            if (Input.GetKeyDown(KeyCode.Y))
+            {
+                SocoForte();
+                nextAttackTime = Time.time + 1f /attackRate;
+            }
+
             
         }
 
@@ -37,6 +43,19 @@ public class ComboHits : MonoBehaviour
         }
 
         
+    }
+
+    void SocoForte()
+    {
+        GetComponent<Movimento>().enabled = false;
+        animacao.SetTrigger("SocoForte");
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(Attackpoint.position, attackRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<Player2>().TakeDamage(30);
+        }
     }
 
     void SocoFraco()
