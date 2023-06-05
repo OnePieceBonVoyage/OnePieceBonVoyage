@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 12224335}
   - component: {fileID: 12224334}
   m_Layer: 6
-  m_Name: bloco (1)
+  m_Name: Bloco2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -421,6 +421,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -494,6 +495,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8192cd689e99a2448bc1d7c70676c258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target1: {fileID: 1889377479}
+  target2: {fileID: 663711225}
+  smoothSpeed: 0.125
+  offset: {x: 0, y: 0, z: 0}
+  yOffset: 0
 --- !u!1 &663711214
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,7 +530,7 @@ GameObject:
   - component: {fileID: 663711216}
   - component: {fileID: 663711215}
   m_Layer: 7
-  m_Name: Ace__1_-removebg-preview_0 (1)
+  m_Name: PersonagemAce2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1272,7 +1290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 178.989, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 550, y: 223}
+  m_AnchoredPosition: {x: 550, y: 350}
   m_SizeDelta: {x: 495.2556, y: 27.4119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376472154
@@ -1482,7 +1500,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -551, y: 226}
+  m_AnchoredPosition: {x: -551, y: 350}
   m_SizeDelta: {x: 491.3446, y: 27.4119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531217630
@@ -1591,7 +1609,7 @@ GameObject:
   - component: {fileID: 1742132792}
   - component: {fileID: 1742132791}
   m_Layer: 6
-  m_Name: bloco (2)
+  m_Name: Bloco2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1843,7 +1861,7 @@ GameObject:
   - component: {fileID: 1889377478}
   - component: {fileID: 1889377480}
   m_Layer: 0
-  m_Name: Ace__1_-removebg-preview_0
+  m_Name: PersonagemAce1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
