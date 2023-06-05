@@ -8,8 +8,8 @@ public class Player2 : MonoBehaviour
     public Animator animacao;
     public int maxHealth = 100;
     public static int currentHealth;
-
-   public HealthBar healthBar;
+    public HealthBar healthBar;
+    public AudioSource FightMusic;
     
     
     // Start is called before the first frame update
@@ -44,6 +44,7 @@ public class Player2 : MonoBehaviour
 
         animacao.SetBool("Morreu", true);
 
+        FightMusic.Stop();
         this.enabled = false;
         GetComponent<Collider2D>().enabled = false;
 
