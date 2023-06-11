@@ -35,7 +35,7 @@ public class Jump : MonoBehaviour
     public void Pular()
     {
 
-        if (Input.GetButtonDown("Jump") && isGrounded() && !Movimento.isDashing && !Movimento.isCrounch && !Movimento.isBlocking)
+        if (Input.GetKeyDown(KeyCode.W) && isGrounded() && !Movimento.isDashing && !Movimento.isCrounch && !Movimento.isBlocking)
         {
             jumpPower = 13;
             rb.gravityScale = 2;

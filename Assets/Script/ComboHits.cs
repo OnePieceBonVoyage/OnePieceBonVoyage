@@ -8,7 +8,6 @@ using Unity.VisualScripting;
 
 public class ComboHits : MonoBehaviour
 {
-
     public Animator animacao;
     public static bool atacando = false;
     public Transform Attackpoint;
@@ -17,6 +16,12 @@ public class ComboHits : MonoBehaviour
 
     public float attackRate = 2f;
     float nextAttackTime = 0f;
+
+	// Start is called before the first frame update
+	void Start()
+	{
+	}
+
     // Update is called once per frame
     void Update()
     {
@@ -33,16 +38,12 @@ public class ComboHits : MonoBehaviour
                 SocoForte();
                 nextAttackTime = Time.time + 1f /attackRate;
             }
-
-            
         }
 
         if (Player2.currentHealth <= 0 )
         {
             Winner();
         }
-
-        
     }
 
     void SocoForte()
@@ -69,8 +70,6 @@ public class ComboHits : MonoBehaviour
         {
             enemy.GetComponent<Player2>().TakeDamage(10);
         }
-
-        
     }
 
     void OnDrawGizmos()
@@ -88,6 +87,5 @@ public class ComboHits : MonoBehaviour
         Destroy(GetComponent<Jump>());
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
-
     }
 }

@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class Movimento : MonoBehaviour
 {
-    
     //Variaveis de movimento
     public static float horizontal;
     private float speed = 5f;
@@ -31,7 +30,6 @@ public class Movimento : MonoBehaviour
     public LayerMask GroundLayer;
 
     [SerializeField] private Rigidbody2D rb;
-
 
     // Update is called once per frame
     void Update()
@@ -97,7 +95,7 @@ public class Movimento : MonoBehaviour
             lastKeyCode = KeyCode.D;
         }
     }
-    //Tentar fazer uma fun�ao para quando dar double tap fazer a animacao
+    //Tentar fazer uma função para quando dar double tap fazer a animacao
 
     IEnumerator dash(float direcao)
     {
@@ -126,12 +124,12 @@ public class Movimento : MonoBehaviour
 
     public void Defender()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.U))
         {
             isBlocking= true;
             animacao.SetBool("Defender", true);
         }
-        else if (Input.GetKeyUp(KeyCode.G))
+        else if (Input.GetKeyUp(KeyCode.U))
         {
             isBlocking= false;
             animacao.SetBool("Defender", false);

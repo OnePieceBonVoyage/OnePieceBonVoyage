@@ -20,10 +20,10 @@ public class Menu : MonoBehaviour
     public void QuitGame()
     {
         //Editor
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
 
         // Jogo Compilado
-        // Application.Quit();
+         Application.Quit();
     }
 
     public void LoadAceScene()

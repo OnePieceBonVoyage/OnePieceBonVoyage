@@ -6,12 +6,6 @@ public class Animacoes : MonoBehaviour
 {
     public Animator animacao;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -54,7 +48,7 @@ public class Animacoes : MonoBehaviour
     {
         animacao = gameObject.GetComponent<Animator>();
 
-        if (Input.GetButtonDown("Jump") && !Movimento.isDashing && !Movimento.isCrounch)
+        if (Input.GetKeyDown(KeyCode.W) && !Movimento.isDashing && !Movimento.isCrounch)
         {
             animacao.SetBool("Pulo", true);
         }
@@ -92,12 +86,12 @@ public class Animacoes : MonoBehaviour
 
     private void Agachar()
     {
-        if (Input.GetButtonDown("Vertical"))
+        if (Input.GetKeyDown(KeyCode.S))
         {
             Movimento.isCrounch = true;
             animacao.SetBool("Agachar", true);
         }
-        else if (Input.GetButtonUp("Vertical"))
+        else if (Input.GetKeyUp(KeyCode.S))
         {
             Movimento.isCrounch = false;
             animacao.SetBool("Agachar", false);

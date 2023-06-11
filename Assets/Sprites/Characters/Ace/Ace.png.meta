@@ -1,0 +1,5547 @@
+fileFormatVersion: 2
+guid: 8f8eab9c31e98ae459f7ca0a64d8fd9a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ace_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8116
+        width: 114
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a1ed1f00f70a44882fdd1a6ea9839e
+      internalID: -1529035160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 7994
+        width: 114
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd126a410789e0a4281bbc9397b2dee2
+      internalID: 2063772024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 7993
+        width: 114
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe5cf5dc4c2aea44b8d8dd8a03869a5
+      internalID: 990489272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 7991
+        width: 114
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2568c6a29360744b0275a5da20052d
+      internalID: -906073634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 7990
+        width: 114
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f708e331ace29914da94895cd6f977bb
+      internalID: -29519291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 7820
+        width: 85
+        height: 159
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208db22bf3b3c3c49acc5dc010ddd82f
+      internalID: 1553447465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 7826
+        width: 68
+        height: 161
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04055427f5fef14ab5b738019ad4393
+      internalID: 1930498654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 7824
+        width: 56
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e2a3bc153a89f4fbc511e047c989c3
+      internalID: 2121940451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 7826
+        width: 64
+        height: 161
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7293ca9e1bbb19c4a804ac1a8116e2c6
+      internalID: 1148347440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_9
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 7820
+        width: 89
+        height: 159
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b718856a0869ed743901ebfd948bda4c
+      internalID: -193754135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 7819
+        width: 68
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a192bb582e6ce4789dc5d7290a01ab
+      internalID: -367584619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_11
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 7824
+        width: 50
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a3f661106a8f9478ddf053265d1bfa
+      internalID: -578535092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_12
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 7825
+        width: 64
+        height: 162
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a7e33d74536bb46b60ed2e25de0365
+      internalID: 1808467059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7715
+        width: 104
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69678ac6352617a48a6fabc622353a3a
+      internalID: 739470575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 7716
+        width: 104
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64459417fe16f2a4eb7c6dcd284134f0
+      internalID: -493600843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_15
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 7713
+        width: 108
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e640400b4c5e694483fcaf4be66af91
+      internalID: -704608946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 7518
+        width: 106
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4859ba9f540ce4c4c9fa04f918b473a7
+      internalID: -806433876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 7517
+        width: 102
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe2e933d348092428d86f1b5d1a4b17
+      internalID: 1135785580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_18
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 7511
+        width: 72
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfaeaf4a1b42be449093c417303f2b1
+      internalID: 1811686758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_19
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 7515
+        width: 115
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c21bd12e4a53034381cb966b66f530e
+      internalID: 457154338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_20
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 7514
+        width: 119
+        height: 149
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe5d40704e708648a45a7689b57f007
+      internalID: -511619162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_21
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 7512
+        width: 128
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627e67786600b1a409219186ac273387
+      internalID: 861742546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_22
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 7515
+        width: 123
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b369a2902d0a4544f979d8796e5b0ba9
+      internalID: 558738488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_23
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 7514
+        width: 78
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d5fe358490275408acc13ebd8f8c4f
+      internalID: 814704010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 7385
+        width: 113
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4115879294acb4ca0d77f8b69ad4c6
+      internalID: 2037764354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_25
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 7386
+        width: 119
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc9c261b833d634ea198111ef81099f
+      internalID: 1793179205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 7381
+        width: 122
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00868c7958336194faa1145a6e418360
+      internalID: -451245840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7279
+        width: 93
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097315f561f03464aa508e5750b9b332
+      internalID: 498648273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 7276
+        width: 92
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a09ea3a8310da438eb9ec2b60bc034
+      internalID: -1961000202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_29
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 7279
+        width: 93
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a22d8bcfebc1bb499a2d08977d8ff48
+      internalID: -1965493078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_30
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 7120
+        width: 117
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05591a4b979cf34aae5b331067cfd96
+      internalID: 2047000384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_31
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 7115
+        width: 95
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05467478f732ca428dfccfa958eefcf
+      internalID: -2081637689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_32
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 7115
+        width: 87
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b880102f764234c9111780b086384e
+      internalID: 667252732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_33
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6974
+        width: 109
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d159de75a4a6e5a4d90f58f265b2dc20
+      internalID: 526259412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 6968
+        width: 102
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8427dccbbbbd8e742908f0ed3982c3ea
+      internalID: -744741198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6815
+        width: 112
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e08ee9cf06aa21489dc8534c1d64242
+      internalID: -1572144538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 6813
+        width: 120
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e0329d3f84b2248979c17b48df382e
+      internalID: 1114951931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_37
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 6816
+        width: 106
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13c3a7cd68c44648a14c44c9e6b2ad7
+      internalID: -1868410157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_38
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 6687
+        width: 122
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4972646b99dfcf489e340c740638822
+      internalID: -1429661916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_39
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 6685
+        width: 152
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb9b8de335f23146af42269ce9607a8
+      internalID: -928175143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_40
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 6684
+        width: 113
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5242428bdc73a834084d52fc475b34bd
+      internalID: -417017736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_41
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 6690
+        width: 97
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f25b25e13ea4d4f886edb36824a95e
+      internalID: 1264293657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_42
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 6568
+        width: 113
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8566c1d54f60c354eaa7ce6d282f3f77
+      internalID: -2035394168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 6565
+        width: 159
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cdef03136400b4f934e481e84fb75a
+      internalID: -1539768212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_44
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 6563
+        width: 155
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdde817fded84740adc1223001069fc
+      internalID: 564375748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_45
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 6567
+        width: 128
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5a41a01e165a9459c22088b2c5e127
+      internalID: -1259584152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6318
+        width: 132
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d788d7b35a703044b8008e0d579423a
+      internalID: 924277632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_47
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 6313
+        width: 148
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8ab642054f83c4d8e94efde8552a4d
+      internalID: -1680821204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_48
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 6317
+        width: 160
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea82d55299d506468d3d55f370cecc5
+      internalID: 992740443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_49
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 6314
+        width: 142
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdfb255da044b64c871520756e01154
+      internalID: -1409675320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_50
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 6313
+        width: 157
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa8bef9e3956e14e95f5949789c0312
+      internalID: -673459535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_51
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 6312
+        width: 158
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba8cf8847e4e394f88f310c5ab718dc
+      internalID: 332006295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_52
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 6146
+        width: 116
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeddf9264080f514584ca76003ae5004
+      internalID: -365803617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_53
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 6147
+        width: 104
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf6ae6a0b05b4648b66085544a563b7
+      internalID: 178827790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_54
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 6145
+        width: 158
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ec6086fc7966344b56fd51242cd6eb
+      internalID: -1924995485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_55
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 6146
+        width: 115
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d4f2b87cdd420478fe6f96b4119ea4
+      internalID: 714225515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_56
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 6037
+        width: 85
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb91c0550b006b4a821c3eda105a3ca
+      internalID: 1711800757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_57
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 6037
+        width: 124
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e400bb007fdd5478bb8f7686c08c6e
+      internalID: 1203381686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_58
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 6037
+        width: 118
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ed54e119c7c4a43935be1314f9b2d3
+      internalID: 1983316104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_59
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 6042
+        width: 95
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e11ebae46b6b94786a795fa081f020
+      internalID: -715141371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 5934
+        width: 98
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5d55793ffd6964dac1ce056381a4af
+      internalID: 1141531044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_61
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 5932
+        width: 108
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c22712f38e72a41a3d239321791788
+      internalID: -1090699873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_62
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 5933
+        width: 108
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4967bca0f3f3fc4fb4d75fb3eccbdc6
+      internalID: 1958161233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_63
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 5934
+        width: 103
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d920376aad4d4c8139dfd10df230b
+      internalID: 165370280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_64
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 5929
+        width: 98
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f140651cdf5ca84ab871518d9e6b138
+      internalID: -1907189460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_65
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5777
+        width: 95
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674e924449351e24ca6eeb6d6ef514e2
+      internalID: -1436590704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_66
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 5779
+        width: 131
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301ecd629871637469f8d255d1dfca63
+      internalID: 966108893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_67
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 5781
+        width: 134
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22113a23bb79114389b2cb74d063203
+      internalID: -41473245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_68
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 5782
+        width: 117
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75d660ef3fded74693a43384ace0fed
+      internalID: 886538364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_69
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 5613
+        width: 97
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5647ebfd2cd404d874e5b2b7333831
+      internalID: 1166071740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_70
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 5613
+        width: 92
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a123a9d7fdc0644493c39ce570a3482
+      internalID: -1137719034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_71
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5617
+        width: 138
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c606308b6cc0c5246b798d3ce8ee916a
+      internalID: 572647802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_72
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 5620
+        width: 137
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc1ad97c9a65fe40a3112b14fbbb4a1
+      internalID: -443087900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_73
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 5617
+        width: 77
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4f9370ce77ed8499572e6078a8a639
+      internalID: 1853220482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_74
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5453
+        width: 92
+        height: 158
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56f0ccbd1ee61940a8f4a1ad2d497f1
+      internalID: -279726934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_75
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 5451
+        width: 156
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa9cdfd143fa01489e67e8a5353f492
+      internalID: -1130034923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_76
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 5458
+        width: 164
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91c029bdae8de849b2644a3eb406512
+      internalID: 1131454765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_77
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 5452
+        width: 136
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092d0c6ccc43fac4c976a69f6164d02b
+      internalID: 961278118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_78
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 5451
+        width: 87
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c624503ec4253c41aef199dba1afa32
+      internalID: -778417944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_79
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 5453
+        width: 110
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a914bf9f4f319aa41880e2fc49dc3e64
+      internalID: 822289335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 5284
+        width: 107
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c983e23272b93fc408d2fff9a0b6cdb9
+      internalID: 1837810825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_81
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 5282
+        width: 95
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5847ae83f1dc2654da72edb51d7bdd4b
+      internalID: 1591073598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_82
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 5286
+        width: 96
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbe9850ee0d7b342add82de05a673e6
+      internalID: 1824643324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_83
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 5282
+        width: 114
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa7f3803c62f6240b8b532c1ff7f72e
+      internalID: 1767637095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_84
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5159
+        width: 150
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dcc0a5775370a44a248cf536c2fe46
+      internalID: 1383706037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_85
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 5165
+        width: 141
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f72e6599bfc9aa4bb50576bf503724a
+      internalID: 2032688197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_86
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 5164
+        width: 167
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998081bef83f5c649893e36183299226
+      internalID: -1112812809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_87
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 5163
+        width: 170
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d52cb05fecd5e4b9327dfbc2d72011
+      internalID: 1966255472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_88
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 5164
+        width: 149
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c774ff35eaac34eb570dd05a122494
+      internalID: 1615658526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_89
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 5034
+        width: 149
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d3a12bd148b034aba4cf91b6f6b654
+      internalID: -588587993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_90
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 5036
+        width: 149
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177aeddb37c5a774995975c1434b33b8
+      internalID: 590513943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_91
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 5030
+        width: 179
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151152ab3a2152748ae3ea5f1e01358e
+      internalID: -686421289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_92
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 5030
+        width: 177
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71022b23bfdfe7d4ea1f98d97cd5c18e
+      internalID: -212500383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_93
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 5030
+        width: 159
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a86bfc806c3a147849813cda6162fc
+      internalID: -741613554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_94
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 4868
+        width: 117
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62b678470b8e96429d25da83c6b9719
+      internalID: -1092935855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_95
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 4870
+        width: 116
+        height: 157
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29fa35fe2a4bf6459ff560ec0c4e30e
+      internalID: -129728806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_96
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 4871
+        width: 92
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0e44bf0679d8040b3312f2d5d31696
+      internalID: -515279197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_97
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 4873
+        width: 117
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97511055c8b3cde469bc3cb4f9e1eed2
+      internalID: 1864404792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_98
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 4870
+        width: 111
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a38f73afb4628409e40664c5c33075
+      internalID: 273948159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_99
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4747
+        width: 141
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ba3ee31a857064a9287b2ff2dee8f0
+      internalID: -301791571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_100
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4752
+        width: 141
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f8519cd1e73cd41a4b56a369424301
+      internalID: -1282690802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_101
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 4751
+        width: 186
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75649a53762fea49bd551ec975b780d
+      internalID: -943440612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_102
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 4749
+        width: 182
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c2253520df41f4da7324314c814fcc
+      internalID: -552424863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_103
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 4751
+        width: 175
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773004ab3ae228f4eb58fdf5ecedf358
+      internalID: -442245392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_104
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 4748
+        width: 142
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c63caf28fc91924ebe28262c9792c11
+      internalID: 143880953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_105
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4551
+        width: 85
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a5a2af956a66a459e3d29613801b9a
+      internalID: 1501978848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_106
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 4554
+        width: 96
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dc4a023764e784aa44e4b59c4cdcf0
+      internalID: 475124796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_107
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 4554
+        width: 125
+        height: 149
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcdb61a2eb2eaa4fa0642158be7cb93
+      internalID: 1895773416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_108
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 4553
+        width: 84
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a799770d829f224cac0b32d721efa84
+      internalID: 2000189627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_109
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 4552
+        width: 83
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404c37786feb9ee46a370a5b77bb84ac
+      internalID: -2041033669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_110
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 4555
+        width: 87
+        height: 148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eff7f5c32cc554399df4bcced324d1
+      internalID: 351896445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_111
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 4558
+        width: 118
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab42de6d7f61421459fedfc98083a2c1
+      internalID: -1292403764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_112
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4390
+        width: 99
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba00b91227c30441bcc8b26780498ae
+      internalID: 1579206821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_113
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 4390
+        width: 97
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096077c4ae24e2044ad1cf45f6875912
+      internalID: -1489606223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_114
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 4395
+        width: 116
+        height: 154
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc9a438ea0343943b3247ef851d2a68
+      internalID: 649998727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_115
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 4386
+        width: 112
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed70bc99f96568447bf87a9fb57c23c9
+      internalID: -1305316143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_116
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 4395
+        width: 141
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5e672667d95e6449bfc222e2c81c56
+      internalID: -1867979295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_117
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4199
+        width: 148
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a649f265a87560479022e95b9eeb0aa
+      internalID: -1735209978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_118
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 4197
+        width: 89
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fad0ebbebda1d84a8ee631048da9ab9
+      internalID: 1198536262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_119
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 4199
+        width: 143
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db64f612ba4293488c9051d0148c6cd
+      internalID: 2135130533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_120
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 4199
+        width: 169
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f443aaf64fe632043ba3364893edf9ef
+      internalID: 1126653665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_121
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 4199
+        width: 169
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9363c728914384ca0ee018e411f2e2
+      internalID: -2058640540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_122
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 4196
+        width: 132
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5d86e66f87993439a773ed4b4091ef
+      internalID: 1695219327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_123
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4079
+        width: 169
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bbde6647ae07d42affc2175c16b528
+      internalID: 299363366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_124
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 4074
+        width: 131
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0f8f7b31bc04e47b0248749ad5adc6
+      internalID: 1102398187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_125
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 4074
+        width: 141
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eff0157e80622941a68bf3d369e22d9
+      internalID: -1237112448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_126
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 4073
+        width: 139
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5dae9541de62c469153ffc4dbf30ed
+      internalID: -1775506112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_127
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 4073
+        width: 168
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc6cb89cefb65c419c6dd17c5b7109c
+      internalID: 1045481549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_128
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 4076
+        width: 131
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48ada6c2f0bcc04ca0f0f0e7c5b8ef9
+      internalID: 527731839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_129
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3898
+        width: 117
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509b89f2b0fcdf747bbba8c2c31cd0b5
+      internalID: -1361757235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_130
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3894
+        width: 117
+        height: 144
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc795d1c72854364aa4d6f0a8ce3dbd3
+      internalID: -21808978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_131
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 3901
+        width: 97
+        height: 169
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1236ecb39a5efe54bb13afbae94e599d
+      internalID: 1516800477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_132
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 3977
+        width: 43
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817b2440a3c2a7c418fabfc3f01929c7
+      internalID: -1310924464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_133
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 3901
+        width: 98
+        height: 169
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a098c8eda223346bd2cbc6ee867b43
+      internalID: -377430151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_134
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 3896
+        width: 99
+        height: 158
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd2ebb5017f1834c83664360004a2f7
+      internalID: 1609927129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_135
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3899
+        width: 116
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdde011a138ef847a4220dfdee5cd2c
+      internalID: 860449656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_136
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3763
+        width: 90
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e1481168a87314e846cd07b751e4b4
+      internalID: 731468768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_137
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3763
+        width: 116
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04cc5bcd3abc624e98f6637e9d0c47e
+      internalID: 569627910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_138
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 3763
+        width: 118
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bb225e2cac8dd41bb7b7aa3e078916
+      internalID: -1630889879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_139
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3760
+        width: 126
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2935aa7d90fe844b21cf8bb963039c
+      internalID: -639473804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_140
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 3757
+        width: 125
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6921a2f78157b77449bdcf74e10b9750
+      internalID: 835410060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_141
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 3761
+        width: 136
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fef1b88a664290469fb4e4d97133d59
+      internalID: 1487637721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_142
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 3613
+        width: 96
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d9b0922bacb9d40890e2bdbecef476
+      internalID: 868384317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_143
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 3614
+        width: 119
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bc81d305280df41b51af91f34c170a
+      internalID: 2143668481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_144
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 3614
+        width: 166
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fcf8fea581e71409c08d376de9e5d6
+      internalID: 1445972882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_145
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3612
+        width: 161
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bc0106eee9342479a27c355dcf79bc
+      internalID: -102617467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_146
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 3612
+        width: 128
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517174fd648c7a04bb8208865e4ca4c6
+      internalID: 1221765749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_147
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3486
+        width: 110
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8be42c4a53482b4eb6dd7981b59b07b
+      internalID: 1767900865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_148
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3487
+        width: 102
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353260533a6319e4ba8fdf25eef217a4
+      internalID: -2096706419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_149
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 3480
+        width: 139
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c74781cc4eda5a45a5893b40459fb7a
+      internalID: -1960189531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_150
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 3481
+        width: 137
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce06f5bd46838d40a0a2be173633cac
+      internalID: -311615827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_151
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 3486
+        width: 127
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b38ca1e827cc27448c3cb523a897a7c
+      internalID: -2066101134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3315
+        width: 114
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a0450842633c44c9bbea96832c3fae
+      internalID: 2025233793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_153
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3310
+        width: 114
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ee17507a6f4d24cae8854b4858ddb3
+      internalID: -290285396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_154
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3311
+        width: 156
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17697a3c28aabcf45a5c8c9f77799426
+      internalID: -1764376087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_155
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 3314
+        width: 134
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10845f2f157df0b42aa3cccf711db8bf
+      internalID: -1543751647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_156
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 3315
+        width: 78
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23ff5bf09f22064e9d6c28899100b0a
+      internalID: -880535095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_157
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 3311
+        width: 133
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdb6abecd06a0f49ae76f87a6a0b5f4
+      internalID: -1608742623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_158
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 3315
+        width: 138
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddeb11fdc8a62b45ad1e59b36b19b3a
+      internalID: -575494683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_159
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 3313
+        width: 131
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbd1980606b25043a5f70055792f12c
+      internalID: 1086383216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_160
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 3152
+        width: 123
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2a69cf343d2494eb1dbdc8a610d5ad
+      internalID: 1897124101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_161
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3152
+        width: 88
+        height: 156
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f83726835f3a504fae51ed8d9b20fcf
+      internalID: -2145219262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_162
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 3149
+        width: 113
+        height: 159
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d693bdd60985e0c4cbc1f40e17b6b053
+      internalID: 2145125972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_163
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 3148
+        width: 149
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe64823058e7d746ab61ffac855362b
+      internalID: -916553834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_164
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 3149
+        width: 143
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25240b252d914f84e884194a434f0d62
+      internalID: -1549763030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_165
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 3155
+        width: 112
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3e5ecf92486304dbd590e470cdf389
+      internalID: 1794923754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_166
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3021
+        width: 108
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb6ecc3285dcd344ba7031c06237c44
+      internalID: 1487677576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_167
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3019
+        width: 116
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e653a37922fb0774b861dfedf94cb2e4
+      internalID: 1481862396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_168
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3020
+        width: 116
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55333f3e2c8544489c353906a1b06dc
+      internalID: -1564504399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_169
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3019
+        width: 117
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977e04e09a7139c48912286bb5f4b81c
+      internalID: 839910255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_170
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 3020
+        width: 116
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850b6d44d1fccbd439528fd8f3abbbc2
+      internalID: 313400757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_171
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 3023
+        width: 113
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec8eef34ca44d34082193d38369e379
+      internalID: -1876863934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_172
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2865
+        width: 112
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b316f557ebe1f8e4eb959935739d4806
+      internalID: -2005708320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_173
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2864
+        width: 130
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3456cdf7d2ebfe648a7bb9d0ec90b847
+      internalID: 572400428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_174
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2864
+        width: 126
+        height: 152
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec3dcb6213312d4d9355cba2652210c
+      internalID: 797209878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_175
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2866
+        width: 106
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545d9b21c213317449f062a9ed8ce4ca
+      internalID: 2069083623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_176
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 2866
+        width: 106
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362a800de1fd79045bbe364e857da74e
+      internalID: 1860680040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_177
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 2864
+        width: 106
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b2aaa4164499c49b596e14268e278d
+      internalID: -1501567661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_178
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2740
+        width: 135
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a033c616235cb1479cd6f7e9102d2e6
+      internalID: -556615089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_179
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2737
+        width: 145
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd41ddd77b1d01b488452b63699f3aab
+      internalID: 718209402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_180
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 2739
+        width: 144
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122b6b75b810f6e43b59b138a3555896
+      internalID: -965977213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_181
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 2736
+        width: 130
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2b2f2c020e3c844a2be9088db8b3e0
+      internalID: 1478528943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_182
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2627
+        width: 112
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097f23b360b36004b986c9b4e6392086
+      internalID: -2078547729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_183
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2623
+        width: 114
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1407fe9a98268314a8b8e2387bbc6266
+      internalID: -40939951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_184
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2625
+        width: 118
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f251d357d472b04681a3fe44de25aac
+      internalID: 309937472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_185
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2626
+        width: 122
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741e2cf11f18561418c9c76c1fa2e9a6
+      internalID: -92875914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_186
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2529
+        width: 124
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07084b80649606b46a670db72503cb54
+      internalID: 98277802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_187
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 2528
+        width: 129
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a99865461d7b8439aafe8084884903
+      internalID: -661481703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_188
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2321
+        width: 116
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1374477a9b660419bfee6c23876c79
+      internalID: 1581590938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_189
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2317
+        width: 124
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d68322b0e1732e44a5ef219bbf5b36c
+      internalID: -1004927221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_190
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2106
+        width: 124
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c90c4739b3e1c428111fc0043529e9
+      internalID: 1133625532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_191
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2105
+        width: 125
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59079088d5589b4693edad5acbf8023
+      internalID: -262538635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_192
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2109
+        width: 128
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad05fed9d2bc7142ad02ebe3292a955
+      internalID: 2145127341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_193
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 2104
+        width: 139
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a033e959073ae641a606de8259cd9b7
+      internalID: -2078007808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_194
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1983
+        width: 136
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0098f24a3a85a4bb7d7cffb7fc2e94
+      internalID: 1687366455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_195
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1986
+        width: 136
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da3ba3871752224b8d04ac555c81c43
+      internalID: -736753414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_196
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1870
+        width: 124
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689f65d851dd2fa4694ce4c982c30e3d
+      internalID: 465073629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_197
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1872
+        width: 124
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f409cf40d0c4d34fbb8cb26cbe7655e
+      internalID: 564782550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_198
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1761
+        width: 109
+        height: 103
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d41d8abb4afd1148ac3a70a98ce176b
+      internalID: 353403528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_199
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1762
+        width: 114
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645f26a8090edee42999863bc4f6969e
+      internalID: -985855416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_200
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1766
+        width: 119
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215f2c03b9f851e4c8ca029d11cb6729
+      internalID: -2107705236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_201
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1761
+        width: 123
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84edd14e643a1a04d951c06fd0e95ebf
+      internalID: -676907134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_202
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1646
+        width: 114
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649719017b427e9429139511b541d0c7
+      internalID: 1543947088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_203
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1647
+        width: 104
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447949a8be0c7614592efd58be2d868c
+      internalID: -1172122715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_204
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1542
+        width: 114
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1008d58f8249c9645842ca6674e3ee88
+      internalID: -1264221869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_205
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1543
+        width: 119
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c283434304a580e48a119dd2f2aeb557
+      internalID: 2002149051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_206
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1436
+        width: 120
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6cf506d624b594392c347faefe988d
+      internalID: -1159757235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_207
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1441
+        width: 147
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49edca16e141ac4b8443182dde169e5
+      internalID: 362725887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_208
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1437
+        width: 111
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38ca72f018e7b04983768a59b6f3456
+      internalID: -1721595752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_209
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1434
+        width: 116
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17597723760fd741acfd2c321bc1572
+      internalID: 2017801429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_210
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1301
+        width: 114
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ec65bee510ce0448a87dee613727b1
+      internalID: -1386013347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_211
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1298
+        width: 103
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d33b53e0775b064597dce1093cf5781
+      internalID: -1238830238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_212
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1296
+        width: 96
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6290d425d2b5a046a78afd8be594760
+      internalID: -1352498455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_213
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1299
+        width: 96
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a68466976500894fbf8236d8d17bb46
+      internalID: -226106800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_214
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1152
+        width: 127
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5beca6d967832eb49a88b64b9e99d065
+      internalID: 251553379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_215
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1151
+        width: 100
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0792c5d85c04f44478394e61ac363c39
+      internalID: -618313036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_216
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1155
+        width: 108
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dea285d41ef1cb46929d03f24083d85
+      internalID: -1625023694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_217
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1154
+        width: 94
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4ab0735da443443aaa638f339c8ec2
+      internalID: 68447526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_218
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1039
+        width: 138
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207b9f7f713bf714f813b49639b61e1d
+      internalID: 786974461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_219
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1036
+        width: 156
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27bb524a8b58c24aa8e9bd285f07514
+      internalID: 1939850902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_220
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1041
+        width: 163
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c030f7a00624f34b86e11a30684856a
+      internalID: -1893618129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_221
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1043
+        width: 152
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1337dc88ad4db4c8a87c5841d03421
+      internalID: 1812364163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_222
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1041
+        width: 124
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75d6f38d0b47fb478cd507aad89f9cb
+      internalID: -1996878824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_223
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1040
+        width: 113
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cb394f3bb50044e97fdfd867b88f72
+      internalID: -2065358452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_224
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1040
+        width: 124
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ff03ea170547a4e9f8dbc90c159b58
+      internalID: 1473811094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_225
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 879
+        width: 125
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd91af36d2cd9f4da6d5b4934280070
+      internalID: 248768317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_226
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 876
+        width: 111
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6370784dce29a924c88f491f1966563a
+      internalID: -521617665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_227
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 880
+        width: 89
+        height: 154
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3527cfd82e977744d864ffa14f211ccc
+      internalID: 1365944408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_228
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 879
+        width: 102
+        height: 155
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae35677b6f496d4692e7e90b8ea332d
+      internalID: 481965619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_229
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 878
+        width: 96
+        height: 156
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcfd6b0459cb6d40aaa7a0f371cca0d
+      internalID: 361290493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_230
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 695
+        width: 116
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472a4cf07639d4544a5929652d38555a
+      internalID: -298935051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_231
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 688
+        width: 91
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd84e0265dd8753489adf04f0027568c
+      internalID: 941776786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_232
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 689
+        width: 86
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6708ef02be494499725ac9a44f4763
+      internalID: 2142247605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_233
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 689
+        width: 85
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a114bebd8b87441b6d3433d1273485
+      internalID: -2103170780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_234
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 522
+        width: 55
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58d82a6b01ca6140ab046f0a87455d8
+      internalID: 373289384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_235
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 523
+        width: 85
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b213180362d4f4db61d67cc541c1c6
+      internalID: 279101075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_236
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 524
+        width: 79
+        height: 162
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af9ea74a3c9817439839dea79b8c346
+      internalID: -1480164100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_237
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 524
+        width: 80
+        height: 162
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad43d25bb401e140a1a7a560fc1387d
+      internalID: -231252403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_238
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 524
+        width: 60
+        height: 162
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3abeb6b4afd2be4a81100c26a585fea
+      internalID: -653419914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_239
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 519
+        width: 101
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff2a5a33cac4354fb4b9ce6ab650828
+      internalID: 1851629381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_240
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 267
+        width: 313
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2a2e328f12a2646863f2c6495c7289
+      internalID: -1269890064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_241
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 260
+        width: 311
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b787ed7ccf2934fb61ff260a55514c
+      internalID: -229278876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_242
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 260
+        width: 311
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce90223201935942a7a2b44ff559dd6
+      internalID: 498440368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_243
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc7328092af11a408e4b361107d4c9b
+      internalID: -1973694957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_244
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 6
+        width: 281
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4772bb1ebc2c4fc4f93d7728c96c8fc0
+      internalID: 1160719824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ace_245
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 6
+        width: 256
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887267df81972704284cead3cca48408
+      internalID: 1285753542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ace_0: -1529035160
+      Ace_1: 2063772024
+      Ace_10: -367584619
+      Ace_100: -1282690802
+      Ace_101: -943440612
+      Ace_102: -552424863
+      Ace_103: -442245392
+      Ace_104: 143880953
+      Ace_105: 1501978848
+      Ace_106: 475124796
+      Ace_107: 1895773416
+      Ace_108: 2000189627
+      Ace_109: -2041033669
+      Ace_11: -578535092
+      Ace_110: 351896445
+      Ace_111: -1292403764
+      Ace_112: 1579206821
+      Ace_113: -1489606223
+      Ace_114: 649998727
+      Ace_115: -1305316143
+      Ace_116: -1867979295
+      Ace_117: -1735209978
+      Ace_118: 1198536262
+      Ace_119: 2135130533
+      Ace_12: 1808467059
+      Ace_120: 1126653665
+      Ace_121: -2058640540
+      Ace_122: 1695219327
+      Ace_123: 299363366
+      Ace_124: 1102398187
+      Ace_125: -1237112448
+      Ace_126: -1775506112
+      Ace_127: 1045481549
+      Ace_128: 527731839
+      Ace_129: -1361757235
+      Ace_13: 739470575
+      Ace_130: -21808978
+      Ace_131: 1516800477
+      Ace_132: -1310924464
+      Ace_133: -377430151
+      Ace_134: 1609927129
+      Ace_135: 860449656
+      Ace_136: 731468768
+      Ace_137: 569627910
+      Ace_138: -1630889879
+      Ace_139: -639473804
+      Ace_14: -493600843
+      Ace_140: 835410060
+      Ace_141: 1487637721
+      Ace_142: 868384317
+      Ace_143: 2143668481
+      Ace_144: 1445972882
+      Ace_145: -102617467
+      Ace_146: 1221765749
+      Ace_147: 1767900865
+      Ace_148: -2096706419
+      Ace_149: -1960189531
+      Ace_15: -704608946
+      Ace_150: -311615827
+      Ace_151: -2066101134
+      Ace_152: 2025233793
+      Ace_153: -290285396
+      Ace_154: -1764376087
+      Ace_155: -1543751647
+      Ace_156: -880535095
+      Ace_157: -1608742623
+      Ace_158: -575494683
+      Ace_159: 1086383216
+      Ace_16: -806433876
+      Ace_160: 1897124101
+      Ace_161: -2145219262
+      Ace_162: 2145125972
+      Ace_163: -916553834
+      Ace_164: -1549763030
+      Ace_165: 1794923754
+      Ace_166: 1487677576
+      Ace_167: 1481862396
+      Ace_168: -1564504399
+      Ace_169: 839910255
+      Ace_17: 1135785580
+      Ace_170: 313400757
+      Ace_171: -1876863934
+      Ace_172: -2005708320
+      Ace_173: 572400428
+      Ace_174: 797209878
+      Ace_175: 2069083623
+      Ace_176: 1860680040
+      Ace_177: -1501567661
+      Ace_178: -556615089
+      Ace_179: 718209402
+      Ace_18: 1811686758
+      Ace_180: -965977213
+      Ace_181: 1478528943
+      Ace_182: -2078547729
+      Ace_183: -40939951
+      Ace_184: 309937472
+      Ace_185: -92875914
+      Ace_186: 98277802
+      Ace_187: -661481703
+      Ace_188: 1581590938
+      Ace_189: -1004927221
+      Ace_19: 457154338
+      Ace_190: 1133625532
+      Ace_191: -262538635
+      Ace_192: 2145127341
+      Ace_193: -2078007808
+      Ace_194: 1687366455
+      Ace_195: -736753414
+      Ace_196: 465073629
+      Ace_197: 564782550
+      Ace_198: 353403528
+      Ace_199: -985855416
+      Ace_2: 990489272
+      Ace_20: -511619162
+      Ace_200: -2107705236
+      Ace_201: -676907134
+      Ace_202: 1543947088
+      Ace_203: -1172122715
+      Ace_204: -1264221869
+      Ace_205: 2002149051
+      Ace_206: -1159757235
+      Ace_207: 362725887
+      Ace_208: -1721595752
+      Ace_209: 2017801429
+      Ace_21: 861742546
+      Ace_210: -1386013347
+      Ace_211: -1238830238
+      Ace_212: -1352498455
+      Ace_213: -226106800
+      Ace_214: 251553379
+      Ace_215: -618313036
+      Ace_216: -1625023694
+      Ace_217: 68447526
+      Ace_218: 786974461
+      Ace_219: 1939850902
+      Ace_22: 558738488
+      Ace_220: -1893618129
+      Ace_221: 1812364163
+      Ace_222: -1996878824
+      Ace_223: -2065358452
+      Ace_224: 1473811094
+      Ace_225: 248768317
+      Ace_226: -521617665
+      Ace_227: 1365944408
+      Ace_228: 481965619
+      Ace_229: 361290493
+      Ace_23: 814704010
+      Ace_230: -298935051
+      Ace_231: 941776786
+      Ace_232: 2142247605
+      Ace_233: -2103170780
+      Ace_234: 373289384
+      Ace_235: 279101075
+      Ace_236: -1480164100
+      Ace_237: -231252403
+      Ace_238: -653419914
+      Ace_239: 1851629381
+      Ace_24: 2037764354
+      Ace_240: -1269890064
+      Ace_241: -229278876
+      Ace_242: 498440368
+      Ace_243: -1973694957
+      Ace_244: 1160719824
+      Ace_245: 1285753542
+      Ace_25: 1793179205
+      Ace_26: -451245840
+      Ace_27: 498648273
+      Ace_28: -1961000202
+      Ace_29: -1965493078
+      Ace_3: -906073634
+      Ace_30: 2047000384
+      Ace_31: -2081637689
+      Ace_32: 667252732
+      Ace_33: 526259412
+      Ace_34: -744741198
+      Ace_35: -1572144538
+      Ace_36: 1114951931
+      Ace_37: -1868410157
+      Ace_38: -1429661916
+      Ace_39: -928175143
+      Ace_4: -29519291
+      Ace_40: -417017736
+      Ace_41: 1264293657
+      Ace_42: -2035394168
+      Ace_43: -1539768212
+      Ace_44: 564375748
+      Ace_45: -1259584152
+      Ace_46: 924277632
+      Ace_47: -1680821204
+      Ace_48: 992740443
+      Ace_49: -1409675320
+      Ace_5: 1553447465
+      Ace_50: -673459535
+      Ace_51: 332006295
+      Ace_52: -365803617
+      Ace_53: 178827790
+      Ace_54: -1924995485
+      Ace_55: 714225515
+      Ace_56: 1711800757
+      Ace_57: 1203381686
+      Ace_58: 1983316104
+      Ace_59: -715141371
+      Ace_6: 1930498654
+      Ace_60: 1141531044
+      Ace_61: -1090699873
+      Ace_62: 1958161233
+      Ace_63: 165370280
+      Ace_64: -1907189460
+      Ace_65: -1436590704
+      Ace_66: 966108893
+      Ace_67: -41473245
+      Ace_68: 886538364
+      Ace_69: 1166071740
+      Ace_7: 2121940451
+      Ace_70: -1137719034
+      Ace_71: 572647802
+      Ace_72: -443087900
+      Ace_73: 1853220482
+      Ace_74: -279726934
+      Ace_75: -1130034923
+      Ace_76: 1131454765
+      Ace_77: 961278118
+      Ace_78: -778417944
+      Ace_79: 822289335
+      Ace_8: 1148347440
+      Ace_80: 1837810825
+      Ace_81: 1591073598
+      Ace_82: 1824643324
+      Ace_83: 1767637095
+      Ace_84: 1383706037
+      Ace_85: 2032688197
+      Ace_86: -1112812809
+      Ace_87: 1966255472
+      Ace_88: 1615658526
+      Ace_89: -588587993
+      Ace_9: -193754135
+      Ace_90: 590513943
+      Ace_91: -686421289
+      Ace_92: -212500383
+      Ace_93: -741613554
+      Ace_94: -1092935855
+      Ace_95: -129728806
+      Ace_96: -515279197
+      Ace_97: 1864404792
+      Ace_98: 273948159
+      Ace_99: -301791571
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

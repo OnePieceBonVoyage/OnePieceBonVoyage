@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 12224335}
   - component: {fileID: 12224334}
   m_Layer: 6
-  m_Name: Bloco2
+  m_Name: BlocoEsquerda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -227,12 +227,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12224333}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.81, y: 1.14, z: 0}
-  m_LocalScale: {x: 4.2084, y: 1, z: 1}
+  m_LocalPosition: {x: -11.8848, y: -0.4201, z: 0}
+  m_LocalScale: {x: 0.017035432, y: 1.6431197, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &121296853
 GameObject:
@@ -360,7 +360,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &283253184
 GameObject:
@@ -512,6 +512,8 @@ MonoBehaviour:
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: 0}
   yOffset: 0
+  wallLeft: {fileID: 12224336}
+  wallRight: {fileID: 1742132793}
 --- !u!1 &663711214
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,7 +532,7 @@ GameObject:
   - component: {fileID: 663711216}
   - component: {fileID: 663711215}
   m_Layer: 7
-  m_Name: PersonagemAce2
+  m_Name: PersonagemLuffy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -637,8 +639,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.73, y: 0.73}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.11, y: 1.14}
     newSize: {x: 0.73, y: 0.73}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -657,7 +659,7 @@ Animator:
   m_GameObject: {fileID: 663711214}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c71fe46aed039c14391102d72f7a2948, type: 2}
+  m_Controller: {fileID: 9100000, guid: 12f2451adedc4c744a4ccddceff2f663, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -709,7 +711,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1669042232, guid: dceb81fe65b4ee84bb513bd10e244240, type: 3}
+  m_Sprite: {fileID: 280500823, guid: dc822238f6be2c4479c99cde65b65c70, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -727,15 +729,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663711214}
-  m_LocalRotation: {x: -0.000013632751, y: 0.99997264, z: 0.0071519753, w: -0.0019061019}
-  m_LocalPosition: {x: 3.18, y: -3.02, z: -0.03}
-  m_LocalScale: {x: 3.08639, y: 3.08639, z: 3.08639}
+  m_LocalRotation: {x: -0.000013632758, y: 0.99997264, z: 0.0071519758, w: -0.0019061007}
+  m_LocalPosition: {x: 3.1799965, y: -3.02, z: -0.030000165}
+  m_LocalScale: {x: 3.0863907, y: 3.08639, z: 3.0863907}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 283253185}
   - {fileID: 1871336705}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -0.82, y: 180.218, z: -0.003}
 --- !u!1 &677227011
 GameObject:
@@ -1061,7 +1063,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1092783429
 GameObject:
@@ -1142,6 +1144,52 @@ Transform:
   m_Father: {fileID: 1889377479}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1151719686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1151719687}
+  - component: {fileID: 1151719688}
+  m_Layer: 0
+  m_Name: AjustarPosicao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1151719687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151719686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1151719688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151719686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350f88dd22d9bab4e94bb577b132cf34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 1889377479}
+  player2: {fileID: 663711225}
 --- !u!1 &1259732837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,7 +1657,7 @@ GameObject:
   - component: {fileID: 1742132792}
   - component: {fileID: 1742132791}
   m_Layer: 6
-  m_Name: Bloco2
+  m_Name: BlocoDireita
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1692,7 +1740,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1742132793
 Transform:
   m_ObjectHideFlags: 0
@@ -1700,9 +1748,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742132790}
-  m_LocalRotation: {x: -0, y: -0.02295152, z: -0, w: 0.99973667}
-  m_LocalPosition: {x: 26.77, y: 1.11, z: 0}
-  m_LocalScale: {x: 4.2910542, y: 1.0196403, z: 1.0196403}
+  m_LocalRotation: {x: -0, y: -0.02295152, z: 1.4551915e-11, w: 0.99973667}
+  m_LocalPosition: {x: 11.8167, y: -0.4516, z: -0.687}
+  m_LocalScale: {x: 0.009248649, y: 1.5616626, z: 1.0196402}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1803,7 +1851,7 @@ RectTransform:
   - {fileID: 1531217629}
   - {fileID: 1376472153}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1929,7 +1977,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1669042232, guid: dceb81fe65b4ee84bb513bd10e244240, type: 3}
+  m_Sprite: {fileID: -1529035160, guid: 8f8eab9c31e98ae459f7ca0a64d8fd9a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1977,8 +2025,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.73, y: 0.73}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.14, y: 1.15}
     newSize: {x: 0.73, y: 0.73}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2100,7 +2148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dae85a3fccac264fb6233cdfb4d180c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animacao: {fileID: 0}
+  animacao: {fileID: 1889377469}
   maxHealth: 100
   healthBar: {fileID: 1531217630}
   FightMusic: {fileID: 121296854}
