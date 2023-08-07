@@ -56,6 +56,10 @@ public class ComboHits : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<Player2>().TakeDamage(30);
+            var enemyRB = enemy.GetComponent<Rigidbody2D>();
+            enemyRB.AddForce(new Vector2(10f, 7f), ForceMode2D.Impulse);
+            var enemyAnimator = enemy.GetComponent<Animator>();
+            enemyAnimator.SetTrigger("Cair");
         }
     }
 
