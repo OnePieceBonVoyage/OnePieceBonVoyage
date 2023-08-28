@@ -6,11 +6,6 @@ public class AjustarPosicao : MonoBehaviour
 {
 	public Transform player1;
 	public Transform player2;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -24,11 +19,18 @@ public class AjustarPosicao : MonoBehaviour
 		{
 			Flip(player1.transform, true);
 			Flip(player2.transform, true);
-		} else if (diff < 0)
+
+			player1.GetComponent<PlayerController>().ImpulseDirection = -1f;
+            player2.GetComponent<PlayerController>().ImpulseDirection = 1f;
+
+        } else if (diff < 0)
 		{
 			Flip(player1.transform, false);
 			Flip(player2.transform, false);
-		}
+
+            player1.GetComponent<PlayerController>().ImpulseDirection = 1f;
+            player2.GetComponent<PlayerController>().ImpulseDirection = -1f;
+        }
     }
 
 	void Flip(Transform player, bool isFacingRight)

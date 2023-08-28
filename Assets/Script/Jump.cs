@@ -9,6 +9,8 @@ public class Jump : MonoBehaviour
     public Transform CheckGround;
     public LayerMask GroundLayer;
     public Animator animacao;
+    public PlayerController pc;
+    private Movimento movimento;
 
     public bool isGrounded()
     {
@@ -34,8 +36,8 @@ public class Jump : MonoBehaviour
     }
     public void Pular()
     {
-
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded() && !Movimento.isDashing && !Movimento.isCrounch && !Movimento.isBlocking)
+        movimento = GetComponent<Movimento>();
+        if (Input.GetKeyDown(pc.ButtonUp) && isGrounded() && !movimento.isDashing && !movimento.isCrounch && !movimento.isBlocking)
         {
             jumpPower = 13;
             rb.gravityScale = 2;

@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string PlayerID;
 
-    // Update is called once per frame
-    void Update()
+    public string HorizontalKey;
+
+    public KeyCode ButtonUp;
+    public KeyCode ButtonDown;
+    public KeyCode ButtonLeft;
+    public KeyCode ButtonRight;
+
+    public KeyCode ButtonLowAttack;
+    public KeyCode ButtonHighAttack;
+
+    public KeyCode ButtonGuard;
+
+    public bool IsPlayerOne;
+    
+    public float ImpulseDirection;
+
+    public void Start()
     {
-        
+        ImpulseDirection = IsPlayerOne ? -1f : 1f;
     }
 }

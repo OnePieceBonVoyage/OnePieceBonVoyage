@@ -16,13 +16,9 @@ public class CameraFollow : MonoBehaviour
     public Transform wallRight;
 
     private Vector3 desiredPosition;
-    private Vector3 initialCameraPosition;
-
-    private bool canMoveCamera = true;
-
     void Start()
     {
-        initialCameraPosition = transform.position;
+
     }
 
     private float cameraLeftEdge;
@@ -70,8 +66,6 @@ public class CameraFollow : MonoBehaviour
             direcao = Direcao.LTR;
         else
             direcao = Direcao.RTL;
-
-        Debug.Log(direcao);
 
         if (direcao == Direcao.RTL)
         {

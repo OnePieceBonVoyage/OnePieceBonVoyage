@@ -7,7 +7,7 @@ public class Player2 : MonoBehaviour
 {
     public Animator animacao;
     public int maxHealth = 100;
-    public static int currentHealth;
+    public int currentHealth;
     public HealthBar healthBar;
     public AudioSource FightMusic;
     
@@ -32,13 +32,13 @@ public class Player2 : MonoBehaviour
         
         healthBar.SetHealth(currentHealth);
 
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             Die();
         }
     }
     
-    void Die()
+    public void Die()
     {
         Debug.Log("Enemy died!");
 
@@ -47,7 +47,5 @@ public class Player2 : MonoBehaviour
         FightMusic.Stop();
         this.enabled = false;
         GetComponent<Collider2D>().enabled = false;
-
     }
-
 }

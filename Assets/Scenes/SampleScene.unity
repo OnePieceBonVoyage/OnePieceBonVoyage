@@ -372,7 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 283253185}
   - component: {fileID: 283253186}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: CheckGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -527,11 +527,14 @@ GameObject:
   - component: {fileID: 663711223}
   - component: {fileID: 663711222}
   - component: {fileID: 663711221}
+  - component: {fileID: 663711228}
+  - component: {fileID: 663711227}
   - component: {fileID: 663711218}
   - component: {fileID: 663711217}
   - component: {fileID: 663711216}
   - component: {fileID: 663711215}
-  m_Layer: 7
+  - component: {fileID: 663711226}
+  m_Layer: 8
   m_Name: PersonagemLuffy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,6 +555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animacao: {fileID: 663711223}
   maxHealth: 100
+  currentHealth: 0
   healthBar: {fileID: 1376472154}
   FightMusic: {fileID: 121296854}
 --- !u!114 &663711216
@@ -561,12 +565,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663711214}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf25e5ae091bdfd4c858e631bb5d875c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animacao: {fileID: 0}
+  animacao: {fileID: 663711223}
+  pc: {fileID: 663711226}
+  movimento: {fileID: 663711228}
 --- !u!114 &663711217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,18 +580,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663711214}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 526fb5a49be6855468f6a6e515a68651, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animacao: {fileID: 663711223}
+  atacando: 0
   Attackpoint: {fileID: 1871336705}
   attackRange: 0.38
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 256
   attackRate: 2
+  playerStats: {fileID: 663711215}
+  enemyStats: {fileID: 1889377480}
+  pc: {fileID: 663711226}
 --- !u!70 &663711218
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -739,6 +749,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -0.82, y: 180.218, z: -0.003}
+--- !u!114 &663711226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663711214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001c5123b3e8d584ba1e688bc8ea6d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerID: luffy
+  HorizontalKey: Horizontal2
+  ButtonUp: 273
+  ButtonDown: 274
+  ButtonLeft: 276
+  ButtonRight: 275
+  ButtonLowAttack: 257
+  ButtonHighAttack: 258
+  ButtonGuard: 259
+  IsPlayerOne: 0
+  ImpulseDirection: 0
+--- !u!114 &663711227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663711214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7caa9168b3b22bf48bcb4b69f70a29e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpPower: 0
+  CheckGround: {fileID: 283253185}
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  animacao: {fileID: 663711223}
+  pc: {fileID: 663711226}
+--- !u!114 &663711228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663711214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a45000d7a1bafd44824e6f78f10c45f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontal: 0
+  animacao: {fileID: 663711223}
+  isCrounch: 0
+  isDashing: 0
+  lastKeyCode: 0
+  isBlocking: 0
+  CheckGround: {fileID: 283253185}
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  rb: {fileID: 663711221}
+  pc: {fileID: 663711226}
 --- !u!1 &677227011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,7 +1151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1092783430}
   - component: {fileID: 1092783431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CheckGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1122,7 +1198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1127017191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Attackpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1867,7 +1943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871336705}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Attackpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1908,7 +1984,8 @@ GameObject:
   - component: {fileID: 1889377477}
   - component: {fileID: 1889377478}
   - component: {fileID: 1889377480}
-  m_Layer: 0
+  - component: {fileID: 1889377481}
+  m_Layer: 8
   m_Name: PersonagemAce1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2047,12 +2124,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a45000d7a1bafd44824e6f78f10c45f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animacao: {fileID: 0}
+  horizontal: 0
+  animacao: {fileID: 1889377469}
+  isCrounch: 0
+  isDashing: 0
+  lastKeyCode: 0
+  isBlocking: 0
   CheckGround: {fileID: 1092783430}
   GroundLayer:
     serializedVersion: 2
     m_Bits: 64
   rb: {fileID: 1889377472}
+  pc: {fileID: 1889377481}
 --- !u!114 &1889377475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2070,7 +2153,8 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 64
-  animacao: {fileID: 0}
+  animacao: {fileID: 1889377469}
+  pc: {fileID: 1889377481}
 --- !u!70 &1889377476
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2100,12 +2184,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animacao: {fileID: 1889377469}
+  atacando: 0
   Attackpoint: {fileID: 1127017191}
   attackRange: 0.38
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 256
   attackRate: 2
+  playerStats: {fileID: 1889377480}
+  enemyStats: {fileID: 663711215}
+  pc: {fileID: 1889377481}
 --- !u!114 &1889377478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2118,7 +2206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf25e5ae091bdfd4c858e631bb5d875c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animacao: {fileID: 0}
+  animacao: {fileID: 1889377469}
+  pc: {fileID: 1889377481}
+  movimento: {fileID: 1889377474}
 --- !u!4 &1889377479
 Transform:
   m_ObjectHideFlags: 0
@@ -2150,8 +2240,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animacao: {fileID: 1889377469}
   maxHealth: 100
+  currentHealth: 0
   healthBar: {fileID: 1531217630}
   FightMusic: {fileID: 121296854}
+--- !u!114 &1889377481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889377468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001c5123b3e8d584ba1e688bc8ea6d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerID: ace
+  HorizontalKey: Horizontal
+  ButtonUp: 119
+  ButtonDown: 115
+  ButtonLeft: 97
+  ButtonRight: 100
+  ButtonLowAttack: 114
+  ButtonHighAttack: 116
+  ButtonGuard: 121
+  IsPlayerOne: 1
+  ImpulseDirection: 0
 --- !u!1 &1931239825
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,37 +7,37 @@ using UnityEngine;
 public class Movimento : MonoBehaviour
 {
     //Variaveis de movimento
-    public static float horizontal;
+    public float horizontal;
     private float speed = 5f;
     private bool isFacingRight = true;
     public Animator animacao; 
 
     //Agachar variaveis
-    public static bool isCrounch = false;
-    private float vertical;
+    public bool isCrounch = false;
 
     //Variaveis de Dash
     private float dashDistance = 8f;
-    public static bool isDashing;
+    public bool isDashing;
 
     private float doubleTapTime;
-    public static KeyCode lastKeyCode;
+    public KeyCode lastKeyCode;
 
     //defender
-    public static bool isBlocking = false;
+    public bool isBlocking = false;
 
     public Transform CheckGround;
     public LayerMask GroundLayer;
 
     [SerializeField] private Rigidbody2D rb;
 
+    public PlayerController pc;
+
     // Update is called once per frame
     void Update()
     {
         if (!isCrounch && !isBlocking && !isDashing)
-            horizontal = Input.GetAxisRaw("Horizontal");
+            horizontal = Input.GetAxisRaw(pc.HorizontalKey);
 
-        vertical = Input.GetAxisRaw("Vertical");
         animacao = gameObject.GetComponent<Animator>();
 
         DarDashDireita();
@@ -64,9 +64,9 @@ public class Movimento : MonoBehaviour
     private void DarDashEsquerda()
     {
         //Dashing Left/Esquerda Teclado
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(pc.ButtonLeft))
         {
-            if (doubleTapTime > Time.time && lastKeyCode == KeyCode.A && isGrounded() && !isCrounch && !isBlocking)
+            if (doubleTapTime > Time.time && lastKeyCode == pc.ButtonLeft && isGrounded() && !isCrounch && !isBlocking)
             {
                 StartCoroutine(dash(-1f));
             }
@@ -74,17 +74,17 @@ public class Movimento : MonoBehaviour
             {
                 doubleTapTime = Time.time + 0.5f;
             }
-            lastKeyCode = KeyCode.A;
+            lastKeyCode = pc.ButtonLeft;
         }
     }
 
     private void DarDashDireita()
     {
         //Dashin Right/Direita Teclado
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(pc.ButtonRight))
         {
 
-            if (doubleTapTime > Time.time && lastKeyCode == KeyCode.D && isGrounded() && !isCrounch && !isBlocking)
+            if (doubleTapTime > Time.time && lastKeyCode == pc.ButtonRight && isGrounded() && !isCrounch && !isBlocking)
             {
                 StartCoroutine(dash(1f));
             }
@@ -92,7 +92,7 @@ public class Movimento : MonoBehaviour
             {
                 doubleTapTime = Time.time + 0.5f;
             }
-            lastKeyCode = KeyCode.D;
+            lastKeyCode = pc.ButtonRight;
         }
     }
     //Tentar fazer uma função para quando dar double tap fazer a animacao
@@ -124,14 +124,14 @@ public class Movimento : MonoBehaviour
 
     public void Defender()
     {
-        if (Input.GetKeyDown(KeyCode.U))
+        if (Input.GetKeyDown(pc.ButtonGuard))
         {
-            isBlocking= true;
+            isBlocking = true;
             animacao.SetBool("Defender", true);
         }
-        else if (Input.GetKeyUp(KeyCode.U))
+        else if (Input.GetKeyUp(pc.ButtonGuard))
         {
-            isBlocking= false;
+            isBlocking = false;
             animacao.SetBool("Defender", false);
         }
     }
