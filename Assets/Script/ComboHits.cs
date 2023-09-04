@@ -39,12 +39,6 @@ public class ComboHits : MonoBehaviour
                 nextAttackTime = Time.time + 1f /attackRate;
             }
         }
-
-        if (enemyStats.currentHealth <= 0 )
-        {
-            enemyStats.Die();
-            Winner();
-        }
     }
 
     void SocoForte()
@@ -60,7 +54,9 @@ public class ComboHits : MonoBehaviour
 
             if (enemyController.PlayerID != pc.PlayerID)
             {
-                enemy.GetComponent<Player2>().TakeDamage(30);
+                int dano = (enemyController.GetComponent<Movimento>().isBlocking) ? 15 : 30;
+
+                enemy.GetComponent<Player2>().TakeDamage(dano);
                 var enemyRB = enemy.GetComponent<Rigidbody2D>();
                 enemyRB.AddForce(new Vector2(10f * enemyController.ImpulseDirection, 7f), ForceMode2D.Impulse);
 
@@ -81,8 +77,10 @@ public class ComboHits : MonoBehaviour
         {
             PlayerController enemyController = enemy.GetComponent<PlayerController>();
 
+            int dano = (enemyController.GetComponent<Movimento>().isBlocking) ? 5 : 10;
+
             if (enemyController.PlayerID != pc.PlayerID)
-                enemy.GetComponent<Player2>().TakeDamage(10);
+                enemy.GetComponent<Player2>().TakeDamage(dano);
         }
     }
 
@@ -90,15 +88,5 @@ public class ComboHits : MonoBehaviour
     {
         if (Attackpoint != null)
             Gizmos.DrawWireSphere(Attackpoint.position, attackRange);
-    }
-
-    void Winner()
-    {
-        animacao.SetTrigger("Ganhou");
-
-        Destroy(GetComponent<Movimento>());
-        Destroy(GetComponent<Jump>());
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
     }
 }

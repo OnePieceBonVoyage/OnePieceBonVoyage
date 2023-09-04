@@ -15,8 +15,6 @@ public class Movimento : MonoBehaviour
     //Agachar variaveis
     public bool isCrounch = false;
 
-    //Variaveis de Dash
-    private float dashDistance = 8f;
     public bool isDashing;
 
     private float doubleTapTime;
@@ -40,8 +38,6 @@ public class Movimento : MonoBehaviour
 
         animacao = gameObject.GetComponent<Animator>();
 
-        DarDashDireita();
-        DarDashEsquerda();
         Defender();
     }
 
@@ -59,56 +55,6 @@ public class Movimento : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
-    }
-
-    private void DarDashEsquerda()
-    {
-        //Dashing Left/Esquerda Teclado
-        if (Input.GetKeyDown(pc.ButtonLeft))
-        {
-            if (doubleTapTime > Time.time && lastKeyCode == pc.ButtonLeft && isGrounded() && !isCrounch && !isBlocking)
-            {
-                StartCoroutine(dash(-1f));
-            }
-            else
-            {
-                doubleTapTime = Time.time + 0.5f;
-            }
-            lastKeyCode = pc.ButtonLeft;
-        }
-    }
-
-    private void DarDashDireita()
-    {
-        //Dashin Right/Direita Teclado
-        if (Input.GetKeyDown(pc.ButtonRight))
-        {
-
-            if (doubleTapTime > Time.time && lastKeyCode == pc.ButtonRight && isGrounded() && !isCrounch && !isBlocking)
-            {
-                StartCoroutine(dash(1f));
-            }
-            else
-            {
-                doubleTapTime = Time.time + 0.5f;
-            }
-            lastKeyCode = pc.ButtonRight;
-        }
-    }
-    //Tentar fazer uma função para quando dar double tap fazer a animacao
-
-    IEnumerator dash(float direcao)
-    {
-        isDashing = true;
-
-        rb.velocity = new Vector2(rb.velocity.x, 0f);
-        rb.AddForce(new Vector2(dashDistance * direcao, 0f), ForceMode2D.Impulse);
-        float gravity = rb.gravityScale;
-        rb.gravityScale = 0;
-        rb.gravityScale = gravity;
-        yield return new WaitForSeconds(0.5f);
-        isDashing = false;
-
     }
 
     private bool isGrounded()

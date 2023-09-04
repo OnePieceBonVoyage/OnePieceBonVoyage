@@ -16,9 +16,6 @@ public class Animacoes : MonoBehaviour
         FazerAnimacaoDireita();
         FazerAnimacaoEsquerda();
 
-        AnimacaoDashDireita();
-        AnimacaoDashEsquerda();
-
         Agachar();
     }
 
@@ -63,38 +60,6 @@ public class Animacoes : MonoBehaviour
             else
             {
                 animacao.SetBool("Pulo", false);
-            }
-        }
-    }
-
-    private void AnimacaoDashDireita()
-    {
-        if (movimento != null)
-        {
-            if (movimento.isDashing && movimento.lastKeyCode == pc.ButtonRight)
-            {
-                animacao.SetBool("DashDireita", true);
-                animacao.SetBool("AndarDireita", false);
-            }
-            else
-            {
-                animacao.SetBool("DashDireita", false);
-            }
-        }
-    }
-
-    private void AnimacaoDashEsquerda()
-    {
-        if (movimento != null)
-        {
-            if (movimento.isDashing && movimento.lastKeyCode == pc.ButtonLeft)
-            {
-                animacao.SetBool("DashEsquerda", true);
-                animacao.SetBool("AndarEsquerda", false);
-            }
-            else
-            {
-                animacao.SetBool("DashEsquerda", false);
             }
         }
     }

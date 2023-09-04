@@ -14,6 +14,8 @@ public class CameraFollow : MonoBehaviour
 
     public Transform wallLeft;
     public Transform wallRight;
+    public Vector3 middlePoint;
+    public float cameraWidth;
 
     private Vector3 desiredPosition;
     void Start()
@@ -21,9 +23,8 @@ public class CameraFollow : MonoBehaviour
 
     }
 
-    private float cameraLeftEdge;
-    private float cameraRightEdge;
-    private float cameraWidth;
+    public float cameraLeftEdge;
+    public float cameraRightEdge;
 
     void LateUpdate()
     {
@@ -48,7 +49,7 @@ public class CameraFollow : MonoBehaviour
 
     void UpdateCamera()
     {
-        Vector3 middlePoint = (target1.position + target2.position) / 2f;
+        middlePoint = (target1.position + target2.position) / 2f;
 
         // Calcula a posição desejada para a câmera
         desiredPosition = transform.position;
@@ -59,6 +60,8 @@ public class CameraFollow : MonoBehaviour
 
         cameraRightEdge = Camera.main.ViewportToWorldPoint(new Vector3(1, 0.5f, smoothedPosition.x)).x;
         cameraLeftEdge = Camera.main.ViewportToWorldPoint(new Vector3(0, 0.5f, smoothedPosition.x)).x;
+
+        cameraWidth = cameraRightEdge - cameraLeftEdge;
 
         Direcao direcao;
 

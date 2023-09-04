@@ -31,21 +31,15 @@ public class Player2 : MonoBehaviour
         animacao.SetTrigger("Dano");
         
         healthBar.SetHealth(currentHealth);
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
     }
-    
+
+    public void Winner()
+    {
+        animacao.SetTrigger("Ganhou");
+    }
+
     public void Die()
     {
-        Debug.Log("Enemy died!");
-
-        animacao.SetBool("Morreu", true);
-
-        FightMusic.Stop();
-        this.enabled = false;
-        GetComponent<Collider2D>().enabled = false;
+        animacao.SetTrigger("Morreu");
     }
 }
