@@ -44,6 +44,28 @@ public class FightManager : MonoBehaviour
             this.StageBackground.color = Color.black;
             this.enabled = false;
         }
+        else if (Player1.currentHealth <= 0)
+        {
+            Player2.Winner();
+            Player1.Die();
+
+            Debug.Log("Vitória do player 2");
+
+
+            Destroy(Player1.GetComponent<Movimento>());
+            Destroy(Player1.GetComponent<Animacoes>());
+            Destroy(Player1.GetComponent<Jump>());
+            Destroy(Player1.GetComponent<ComboHits>());
+
+            Destroy(Player2.GetComponent<Movimento>());
+            Destroy(Player2.GetComponent<Animacoes>());
+            Destroy(Player2.GetComponent<Jump>());
+            Destroy(Player2.GetComponent<ComboHits>());
+
+            DisplayKO();
+            this.StageBackground.color = Color.black;
+            this.enabled = false;
+        }
     }
 
     public async void DisplayKO()

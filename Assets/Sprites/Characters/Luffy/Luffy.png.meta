@@ -2472,9 +2472,9 @@ TextureImporter:
       name: Luffy_112
       rect:
         serializedVersion: 2
-        x: 1618
-        y: 5756
-        width: 104
+        x: 1619
+        y: 5757
+        width: 130
         height: 144
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -2485,27 +2485,6 @@ TextureImporter:
       bones: []
       spriteID: 3eb4e00538161bc45a50a965f71f71e2
       internalID: 692175906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Luffy_113
-      rect:
-        serializedVersion: 2
-        x: 1716
-        y: 5823
-        width: 33
-        height: 78
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c68d0f64b3203b4498f7ee0d6e7190b
-      internalID: 1338553228
       vertices: []
       indices: 
       edges: []
