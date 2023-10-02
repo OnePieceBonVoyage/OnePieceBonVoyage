@@ -19,15 +19,11 @@ public class Menu : MonoBehaviour
 
     public void QuitGame()
     {
-        //Editor
-        //UnityEditor.EditorApplication.isPlaying = false;
-
-        // Jogo Compilado
-         Application.Quit();
+        SceneManager.LoadScene("ExitScene");
     }
 
     public void LoadAceScene()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("FightScene");
     }
 }
