@@ -56,6 +56,8 @@ public class ComboHits : MonoBehaviour
             {
                 int dano = (enemyController.GetComponent<Movimento>().isBlocking) ? 15 : 30;
 
+                pc.GetAudioByName("highPunch").Play();
+
                 enemy.GetComponent<Player2>().TakeDamage(dano);
                 var enemyRB = enemy.GetComponent<Rigidbody2D>();
                 enemyRB.AddForce(new Vector2(10f * enemyController.ImpulseDirection, 7f), ForceMode2D.Impulse);
@@ -80,7 +82,10 @@ public class ComboHits : MonoBehaviour
             int dano = (enemyController.GetComponent<Movimento>().isBlocking) ? 5 : 10;
 
             if (enemyController.PlayerID != pc.PlayerID)
+            {
                 enemy.GetComponent<Player2>().TakeDamage(dano);
+                pc.GetAudioByName("lowPunch").Play();
+            }
         }
     }
 

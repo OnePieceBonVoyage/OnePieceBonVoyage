@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Jump : MonoBehaviour
@@ -39,6 +41,7 @@ public class Jump : MonoBehaviour
         movimento = GetComponent<Movimento>();
         if (Input.GetKeyDown(pc.ButtonUp) && isGrounded() && !movimento.isDashing && !movimento.isCrounch && !movimento.isBlocking)
         {
+            pc.GetAudioByName("jump").Play();
             jumpPower = 13;
             rb.gravityScale = 2;
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);

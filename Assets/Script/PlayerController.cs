@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -22,8 +23,16 @@ public class PlayerController : MonoBehaviour
     
     public float ImpulseDirection;
 
+    public GameObject Audios;
+
     public void Start()
     {
         ImpulseDirection = IsPlayerOne ? -1f : 1f;
+    }
+
+    public AudioSource GetAudioByName(string audioName)
+    {
+        List<AudioSource> audios = Audios.GetComponentsInChildren<AudioSource>().ToList();
+        return audios.Find(a => a.name == audioName);
     }
 }
