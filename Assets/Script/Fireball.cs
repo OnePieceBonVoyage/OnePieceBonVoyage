@@ -11,7 +11,7 @@ public class Fireball : MonoBehaviour
 
     void Start()
     {
-        this.GetComponent<Rigidbody2D>().AddForce(new Vector2(direction * 30, 0f));
+        this.GetComponent<Rigidbody2D>().AddForce(new Vector2(direction * 30, 0f), ForceMode2D.Force);
     }
 
     // Update is called once per frame
@@ -26,7 +26,6 @@ public class Fireball : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            Debug.Log(enemy.gameObject.name);
             PlayerController enemyController = enemy.GetComponent<PlayerController>();
 
             if (enemyController.PlayerID != author.PlayerID)
@@ -34,7 +33,7 @@ public class Fireball : MonoBehaviour
                 int dano = (enemyController.GetComponent<Movimento>().isBlocking) ? 15 : 30;
 
                 enemy.GetComponent<Player2>().TakeDamage(dano);
-                Destroy(this);
+                GameObject.Destroy(this.gameObject);
             }
         }
     }

@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     public KeyCode ButtonLowAttack;
     public KeyCode ButtonHighAttack;
+    public KeyCode ButtonSpecialAttack;
 
     public KeyCode ButtonGuard;
 

@@ -37,8 +37,12 @@ public class ComboHits : MonoBehaviour
             if (Input.GetKeyDown(pc.ButtonHighAttack))
             {
                 SocoForte();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
+            if (Input.GetKeyDown(pc.ButtonSpecialAttack))
+            {
                 ShootFireball();
-                nextAttackTime = Time.time + 1f /attackRate;
+                nextAttackTime = Time.time + 1f / attackRate;
             }
         }
     }
@@ -99,6 +103,7 @@ public class ComboHits : MonoBehaviour
 
     void ShootFireball()
     {
+        animacao.SetTrigger("Power");
         fireballPrefab.GetComponent<Fireball>().author = pc;
         fireballPrefab.GetComponent<Fireball>().direction = 1f;
         Vector3 fireballPosition = transform.position;
