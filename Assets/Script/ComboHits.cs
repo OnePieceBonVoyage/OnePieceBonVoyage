@@ -32,12 +32,12 @@ public class ComboHits : MonoBehaviour
             if (Input.GetKeyDown(pc.ButtonLowAttack))
             {
                 SocoFraco();
-                ShootFireball();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
             if (Input.GetKeyDown(pc.ButtonHighAttack))
             {
                 SocoForte();
+                ShootFireball();
                 nextAttackTime = Time.time + 1f /attackRate;
             }
         }
@@ -101,6 +101,8 @@ public class ComboHits : MonoBehaviour
     {
         fireballPrefab.GetComponent<Fireball>().author = pc;
         fireballPrefab.GetComponent<Fireball>().direction = 1f;
-        Instantiate(fireballPrefab, this.transform.position, Quaternion.identity);
+        Vector3 fireballPosition = transform.position;
+        fireballPosition.y += 1.5f;
+        Instantiate(fireballPrefab, fireballPosition, Quaternion.identity);
     }
 }
