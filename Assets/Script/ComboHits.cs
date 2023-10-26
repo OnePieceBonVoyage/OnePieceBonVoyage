@@ -21,6 +21,7 @@ public class ComboHits : MonoBehaviour
 
     float nextAttackTime = 0f;
     public PlayerController pc;
+    public GameObject fireballPrefab;
 
     // Update is called once per frame
     void Update()
@@ -31,6 +32,7 @@ public class ComboHits : MonoBehaviour
             if (Input.GetKeyDown(pc.ButtonLowAttack))
             {
                 SocoFraco();
+                ShootFireball();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
             if (Input.GetKeyDown(pc.ButtonHighAttack))
@@ -93,5 +95,12 @@ public class ComboHits : MonoBehaviour
     {
         if (Attackpoint != null)
             Gizmos.DrawWireSphere(Attackpoint.position, attackRange);
+    }
+
+    void ShootFireball()
+    {
+        fireballPrefab.GetComponent<Fireball>().author = pc;
+        fireballPrefab.GetComponent<Fireball>().direction = 1f;
+        Instantiate(fireballPrefab, this.transform.position, Quaternion.identity);
     }
 }
