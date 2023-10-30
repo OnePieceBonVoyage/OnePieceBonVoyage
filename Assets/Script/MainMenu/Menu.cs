@@ -34,6 +34,6 @@ public class Menu : MonoBehaviour
 
     public void LoadAceScene()
     {
-        SceneManager.LoadScene("FightScene");
+        SceneManager.LoadScene("CharSelect");
     }
 }

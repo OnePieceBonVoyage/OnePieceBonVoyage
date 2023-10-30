@@ -8,6 +8,11 @@ public class AjustarPosicao : MonoBehaviour
 	public Transform player2;
 
     // Update is called once per frame
+    void Start()
+    {
+		player1 = FightResolver.player1.transform;
+		player2 = FightResolver.player2.transform;
+    }
     void Update()
     {
         float player1X = player1.transform.position.x;

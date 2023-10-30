@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CharacterSelect : MonoBehaviour
 {
+    public static string p1;
+    public static string p2;
     public void Start()
     {
         
@@ -36,12 +39,16 @@ public class CharacterSelect : MonoBehaviour
             ace.transform.position = P1Position.transform.position;
             var _a = Instantiate(ace);
             _a.GetComponent<Hologram>().FaceRight();
+            p1 = "ace";
         }
         else if (selectionIndex == 1)
         {
             ace.transform.position = P2Position.transform.position;
             var _a = Instantiate(ace);
             _a.GetComponent<Hologram>().FaceLeft();
+            p2 = "ace";
+
+            StartCoroutine(StartFight());
         }
         AceButton.interactable = false;
         selectionIndex++;
@@ -56,12 +63,16 @@ public class CharacterSelect : MonoBehaviour
             luffy.transform.position = P1Position.transform.position;
             var _l = Instantiate(luffy);
             _l.GetComponent<Hologram>().FaceRight();
+            p1 = "luffy";
         }
         else if (selectionIndex == 1)
         {
             luffy.transform.position = P2Position.transform.position;
             var _l = Instantiate(luffy);
             _l.GetComponent<Hologram>().FaceLeft();
+            p2 = "luffy";
+
+            StartCoroutine(StartFight());
         }
 
         LuffyButton.interactable = false;
@@ -77,14 +88,25 @@ public class CharacterSelect : MonoBehaviour
             zoro.transform.position = P1Position.transform.position;
             var _z = Instantiate(zoro);
             _z.GetComponent<Hologram>().FaceRight();
+            p1 = "zoro";
         }
         else if (selectionIndex == 1)
         {
             zoro.transform.position = P2Position.transform.position;
             var _z = Instantiate(zoro);
             _z.GetComponent<Hologram>().FaceLeft();
+            p2 = "zoro";
+
+            StartCoroutine(StartFight());
         }
         ZoroButton.interactable = false;
         selectionIndex++;
+    }
+
+    public IEnumerator StartFight()
+    {
+        yield return new WaitForSeconds(1);
+
+        SceneManager.LoadScene("FightScene");
     }
 }
