@@ -31,16 +31,17 @@ public class CharacterSelect : MonoBehaviour
     {
         if (selectionIndex > 1) return;
         GameObject ace = AcePrefab;
-        HandleDirection(ace.transform);
         if (selectionIndex == 0)
         {
             ace.transform.position = P1Position.transform.position;
-            Instantiate(ace);
+            var _a = Instantiate(ace);
+            _a.GetComponent<Hologram>().FaceRight();
         }
         else if (selectionIndex == 1)
         {
             ace.transform.position = P2Position.transform.position;
-            Instantiate(ace);
+            var _a = Instantiate(ace);
+            _a.GetComponent<Hologram>().FaceLeft();
         }
         AceButton.interactable = false;
         selectionIndex++;
@@ -50,16 +51,17 @@ public class CharacterSelect : MonoBehaviour
     {
         if (selectionIndex > 1) return;
         GameObject luffy = LuffyPrefab;
-        HandleDirection(luffy.transform);
         if (selectionIndex == 0)
         {
             luffy.transform.position = P1Position.transform.position;
-            Instantiate(luffy);
+            var _l = Instantiate(luffy);
+            _l.GetComponent<Hologram>().FaceRight();
         }
         else if (selectionIndex == 1)
         {
             luffy.transform.position = P2Position.transform.position;
-            Instantiate(luffy);
+            var _l = Instantiate(luffy);
+            _l.GetComponent<Hologram>().FaceLeft();
         }
 
         LuffyButton.interactable = false;
@@ -70,30 +72,19 @@ public class CharacterSelect : MonoBehaviour
     {
         if (selectionIndex > 1) return;
         GameObject zoro = ZoroPrefab;
-        HandleDirection(zoro.transform);
         if (selectionIndex == 0)
         {
             zoro.transform.position = P1Position.transform.position;
-            Instantiate(zoro);
+            var _z = Instantiate(zoro);
+            _z.GetComponent<Hologram>().FaceRight();
         }
         else if (selectionIndex == 1)
         {
             zoro.transform.position = P2Position.transform.position;
-            Instantiate(zoro);
+            var _z = Instantiate(zoro);
+            _z.GetComponent<Hologram>().FaceLeft();
         }
         ZoroButton.interactable = false;
         selectionIndex++;
-    }
-
-    public void HandleDirection(Transform hologram)
-    {
-        if (selectionIndex == 0)
-        {
-            hologram.GetComponent<Hologram>().FaceRight();
-        }
-        else if (selectionIndex == 1)
-        {
-            hologram.GetComponent<Hologram>().FaceLeft();
-        }
     }
 }
