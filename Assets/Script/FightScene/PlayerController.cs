@@ -23,12 +23,13 @@ public class PlayerController : MonoBehaviour
     public bool IsPlayerOne;
     
     public float ImpulseDirection;
+    public bool FlipNeeded;
 
     public GameObject Audios;
 
     public void Start()
     {
-        ImpulseDirection = IsPlayerOne ? -1f : 1f;
+        ImpulseDirection = IsPlayerOne ? 1f : -1f;
     }
 
     public AudioSource GetAudioByName(string audioName)

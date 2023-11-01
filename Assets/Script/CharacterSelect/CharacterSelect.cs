@@ -105,7 +105,7 @@ public class CharacterSelect : MonoBehaviour
 
     public IEnumerator StartFight()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3);
 
         SceneManager.LoadScene("FightScene");
     }

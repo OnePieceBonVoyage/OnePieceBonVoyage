@@ -51,13 +51,14 @@ GameObject:
   - component: {fileID: 5065771217864257497}
   - component: {fileID: 5065771217864257478}
   - component: {fileID: 5065771217864257491}
+  - component: {fileID: 3259623801650389113}
   m_Layer: 8
   m_Name: luffy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5065771217864257488
 Transform:
   m_ObjectHideFlags: 0
@@ -276,8 +277,8 @@ MonoBehaviour:
   attackRate: 2
   playerStats: {fileID: 5065771217864257478}
   enemyStats: {fileID: 0}
+  nextAttackTime: 0
   pc: {fileID: 5065771217864257491}
-  fireballPrefab: {fileID: 0}
 --- !u!114 &5065771217864257497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,6 +336,20 @@ MonoBehaviour:
   IsPlayerOne: 1
   ImpulseDirection: 0
   Audios: {fileID: 0}
+--- !u!114 &3259623801650389113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5065771217864257479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f3f2508cb3ee8441b9569372333bb8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pc: {fileID: 5065771217864257491}
+  ch: {fileID: 5065771217864257496}
 --- !u!1 &5065771218722823145
 GameObject:
   m_ObjectHideFlags: 0

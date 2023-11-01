@@ -20,8 +20,7 @@ public class CameraFollow : MonoBehaviour
     private Vector3 desiredPosition;
     void Start()
     {
-        target1 = FightResolver.player1.transform;
-        target1 = FightResolver.player2.transform;
+
     }
 
     public float cameraLeftEdge;

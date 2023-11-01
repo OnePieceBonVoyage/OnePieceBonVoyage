@@ -10,8 +10,6 @@ public class AjustarPosicao : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-		player1 = FightResolver.player1.transform;
-		player2 = FightResolver.player2.transform;
     }
     void Update()
     {
@@ -20,21 +18,24 @@ public class AjustarPosicao : MonoBehaviour
 
 		float diff = player2X - player1X;
 
-		if (diff > 0)
-		{
-			Flip(player1.transform, true);
-			Flip(player2.transform, true);
+        var pc1 = player1.GetComponent<PlayerController>();
+        var pc2 = player2.GetComponent<PlayerController>();
 
-			player1.GetComponent<PlayerController>().ImpulseDirection = -1f;
-            player2.GetComponent<PlayerController>().ImpulseDirection = 1f;
+        if (diff > 0)
+		{
+			Flip(player1.transform, pc1.FlipNeeded);
+			Flip(player2.transform, !pc2.FlipNeeded);
+
+			player1.GetComponent<PlayerController>().ImpulseDirection = pc1.FlipNeeded ? -1f : 1f;
+            player2.GetComponent<PlayerController>().ImpulseDirection = pc2.FlipNeeded ? 1f : -1f;
 
         } else if (diff < 0)
 		{
-			Flip(player1.transform, false);
-			Flip(player2.transform, false);
+			Flip(player1.transform, !pc1.FlipNeeded);
+			Flip(player2.transform, pc2.FlipNeeded);
 
-            player1.GetComponent<PlayerController>().ImpulseDirection = 1f;
-            player2.GetComponent<PlayerController>().ImpulseDirection = -1f;
+            player1.GetComponent<PlayerController>().ImpulseDirection = pc1.FlipNeeded ? 1f : -1f;
+            player2.GetComponent<PlayerController>().ImpulseDirection = pc2.FlipNeeded ? -1f : 1f;
         }
     }
 

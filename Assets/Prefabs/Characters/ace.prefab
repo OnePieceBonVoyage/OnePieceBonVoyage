@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 3002046965078554961}
   - component: {fileID: 3002046965078554975}
   - component: {fileID: 3002046965078554974}
+  - component: {fileID: 8790508940193078132}
   m_Layer: 8
   m_Name: ace
   m_TagString: Untagged
@@ -114,7 +115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3002046965078554923}
   m_LocalRotation: {x: 0.0071519874, y: -0, z: -0, w: 0.9999744}
-  m_LocalPosition: {x: -3.6299999, y: -1.61, z: -0.01}
+  m_LocalPosition: {x: 3.17, y: -1.61, z: -0.01}
   m_LocalScale: {x: 3.08639, y: 3.08639, z: 3.08639}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -324,8 +325,11 @@ MonoBehaviour:
   attackRate: 2
   playerStats: {fileID: 3002046965078554975}
   enemyStats: {fileID: 0}
+  nextAttackTime: 0
   pc: {fileID: 3002046965078554974}
-  fireballPrefab: {fileID: 2986838528051553275, guid: ec5341481b286f84691f70f6859eeed1, type: 3}
+  specialCooldown: 10
+  canMakeSpecial: 0
+  specialBar: {fileID: 0}
 --- !u!114 &3002046965078554961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,4 +386,20 @@ MonoBehaviour:
   ButtonGuard: 121
   IsPlayerOne: 0
   ImpulseDirection: 0
+  FlipNeeded: 1
   Audios: {fileID: 0}
+--- !u!114 &8790508940193078132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3002046965078554923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b778d2ac0b4237428823ef885d23e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pc: {fileID: 3002046965078554974}
+  ch: {fileID: 3002046965078554962}
+  fireballPrefab: {fileID: 2986838528051553275, guid: ec5341481b286f84691f70f6859eeed1, type: 3}

@@ -19,13 +19,32 @@ public class ComboHits : MonoBehaviour
     public Player2 playerStats;
     public Player2 enemyStats;
 
-    float nextAttackTime = 0f;
+    public float nextAttackTime = 0f;
     public PlayerController pc;
-    public GameObject fireballPrefab;
 
+    public float specialCooldown = 10f;
+    public bool canMakeSpecial;
+
+    public SpecialBar specialBar;
     // Update is called once per frame
+    void Start()
+    {
+        specialBar.SetMaxSpecial(0f);
+    }
     void Update()
     {
+        if (specialCooldown > 0f)
+        {
+            if (specialCooldown < Time.deltaTime)
+                specialCooldown = 0;
+            else
+                specialCooldown -= Time.deltaTime;
+
+            canMakeSpecial = (specialCooldown == 0);
+
+            specialBar.SetSpecial(Mathf.Abs(specialCooldown - 10f) * 10);
+        }
+
         if (Time.time >= nextAttackTime)
         {
             GetComponent<Movimento>().enabled = true;
@@ -37,11 +56,6 @@ public class ComboHits : MonoBehaviour
             if (Input.GetKeyDown(pc.ButtonHighAttack))
             {
                 SocoForte();
-                nextAttackTime = Time.time + 1f / attackRate;
-            }
-            if (Input.GetKeyDown(pc.ButtonSpecialAttack))
-            {
-                ShootFireball();
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
@@ -99,15 +113,5 @@ public class ComboHits : MonoBehaviour
     {
         if (Attackpoint != null)
             Gizmos.DrawWireSphere(Attackpoint.position, attackRange);
-    }
-
-    void ShootFireball()
-    {
-        animacao.SetTrigger("Power");
-        fireballPrefab.GetComponent<Fireball>().author = pc;
-        fireballPrefab.GetComponent<Fireball>().direction = 1f;
-        Vector3 fireballPosition = transform.position;
-        fireballPosition.y += 1.5f;
-        Instantiate(fireballPrefab, fireballPosition, Quaternion.identity);
     }
 }

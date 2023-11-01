@@ -12,9 +12,6 @@ public class FightManager : MonoBehaviour
     public SpriteRenderer TextKO;
     public CameraFollow cameraFollow;
 
-    public GameObject P1Position;
-    public GameObject P2Position;
-
     public static bool IsFinished = false;
 
     // Start is called before the first frame update
