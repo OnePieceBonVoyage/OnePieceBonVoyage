@@ -32,9 +32,9 @@ public class ElephantGun : MonoBehaviour
 
         GetComponent<Movimento>().enabled = false;
 
+        yield return new WaitForSeconds(.5f);
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(ch.Attackpoint.position, ch.attackRange * 2f, ch.enemyLayers);
 
-        yield return new WaitForSeconds(.5f);
         foreach (Collider2D enemy in hitEnemies)
         {
             PlayerController enemyController = enemy.GetComponent<PlayerController>();

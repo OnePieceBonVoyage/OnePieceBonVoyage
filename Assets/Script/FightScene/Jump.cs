@@ -35,6 +35,11 @@ public class Jump : MonoBehaviour
     void Update()
     {
         Pular();
+
+        if (isGrounded() && !Input.GetKeyDown(pc.ButtonUp))
+        {
+            animacao.SetBool("Pulo", false);
+        }
     }
     public void Pular()
     {

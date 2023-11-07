@@ -13,9 +13,14 @@ public class CharacterSelect : MonoBehaviour
         
     }
 
+    private bool started = false;
     public void Update()
     {
-        
+        if (!started && ((p1 != null) || (p2 != null)) && selectionIndex == 2)
+        {
+            StartCoroutine(StartFight());
+            started = true;
+        }
     }
 
     public GameObject P1Position;
@@ -47,8 +52,6 @@ public class CharacterSelect : MonoBehaviour
             var _a = Instantiate(ace);
             _a.GetComponent<Hologram>().FaceLeft();
             p2 = "ace";
-
-            StartCoroutine(StartFight());
         }
         AceButton.interactable = false;
         selectionIndex++;
@@ -71,8 +74,6 @@ public class CharacterSelect : MonoBehaviour
             var _l = Instantiate(luffy);
             _l.GetComponent<Hologram>().FaceLeft();
             p2 = "luffy";
-
-            StartCoroutine(StartFight());
         }
 
         LuffyButton.interactable = false;
@@ -96,8 +97,6 @@ public class CharacterSelect : MonoBehaviour
             var _z = Instantiate(zoro);
             _z.GetComponent<Hologram>().FaceLeft();
             p2 = "zoro";
-
-            StartCoroutine(StartFight());
         }
         ZoroButton.interactable = false;
         selectionIndex++;
