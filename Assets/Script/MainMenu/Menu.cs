@@ -7,11 +7,14 @@ public class Menu : MonoBehaviour
 {
     public Rigidbody2D nuvensRb;
     public Rigidbody2D sunnyRb;
+
+    public AudioSource bgmMusic;
     // Start is called before the first frame update
     void Start()
     {
         nuvensRb.AddForce(new Vector2(5f, 0));
         StartCoroutine(CoupDeBurst());
+        bgmMusic.volume = OptionManager.volume / 100f;
     }
 
     IEnumerator CoupDeBurst()
@@ -35,5 +38,10 @@ public class Menu : MonoBehaviour
     public void LoadAceScene()
     {
         SceneManager.LoadScene("CharSelect");
+    }
+
+    public void LoadOptions()
+    {
+        SceneManager.LoadScene("OptionsScene");
     }
 }

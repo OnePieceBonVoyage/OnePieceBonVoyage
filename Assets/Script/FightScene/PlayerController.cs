@@ -35,6 +35,10 @@ public class PlayerController : MonoBehaviour
     public AudioSource GetAudioByName(string audioName)
     {
         List<AudioSource> audios = Audios.GetComponentsInChildren<AudioSource>().ToList();
-        return audios.Find(a => a.name == audioName);
+        var audio = audios.Find(a => a.name == audioName);
+
+        audio.volume = OptionManager.volume;
+
+        return audio;
     }
 }

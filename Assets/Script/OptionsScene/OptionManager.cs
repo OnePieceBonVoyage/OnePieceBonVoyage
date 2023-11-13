@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class OptionManager : MonoBehaviour
@@ -10,6 +11,8 @@ public class OptionManager : MonoBehaviour
 
     public Text volumeLabel1;
     public Text volumeLabel2;
+
+    public static float volume = 50f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,5 +27,12 @@ public class OptionManager : MonoBehaviour
 
         volumeLabel1.text = $"Volume: {volText}";
         volumeLabel2.text = $"Volume: {volText}";
+
+        volume = slider.value;
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("MainMenuScene");
+        }
     }
 }

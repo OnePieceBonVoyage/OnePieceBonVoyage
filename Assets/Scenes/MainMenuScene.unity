@@ -1143,7 +1143,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1443691614}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1949513405}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: LoadOptions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1443691614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1548,6 +1560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nuvensRb: {fileID: 385218665}
   sunnyRb: {fileID: 577915334}
+  bgmMusic: {fileID: 1029912586}
 --- !u!1 &2112231222
 GameObject:
   m_ObjectHideFlags: 0
