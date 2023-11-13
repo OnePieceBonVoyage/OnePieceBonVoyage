@@ -49,6 +49,10 @@ public class Animacoes : MonoBehaviour
         }
     }
 
+    /**
+     * Captura o pressionamento da tecla "UP" referente ao jogador
+     * se a tecla for pressionada, permitir a animação do pulo.
+     */
     private void AnimacaoPular()
     {
         if (movimento != null)
@@ -64,6 +68,10 @@ public class Animacoes : MonoBehaviour
         }
     }
 
+    /**
+     * Capturar o pressionamento da tecla "Down" referente ao jogador
+     * se a tecla for pressionada, o personagem irá agachar.
+     */
     private void Agachar()
     {
         if (movimento != null)

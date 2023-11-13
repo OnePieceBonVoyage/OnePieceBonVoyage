@@ -11,15 +11,12 @@ public class Player2 : MonoBehaviour
     public HealthBar healthBar;
     public AudioSource FightMusic;
     
-    
-    // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
 
-    // Update is called once per frame
     void Update()
     {
         

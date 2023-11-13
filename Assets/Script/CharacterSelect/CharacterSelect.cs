@@ -61,6 +61,7 @@ public class CharacterSelect : MonoBehaviour
     {
         if (selectionIndex > 1) return;
         GameObject luffy = LuffyPrefab;
+
         if (selectionIndex == 0)
         {
             luffy.transform.position = P1Position.transform.position;

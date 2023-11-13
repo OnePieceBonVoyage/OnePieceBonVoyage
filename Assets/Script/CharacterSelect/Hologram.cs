@@ -8,6 +8,7 @@ public class Hologram : MonoBehaviour
     public void Update() { }
 
     private bool IsFacingRight = true;
+
     public void FaceRight()
     {
         Vector3 newScale = transform.localScale;
