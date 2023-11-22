@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FightManager : MonoBehaviour
 {
@@ -43,6 +44,8 @@ public class FightManager : MonoBehaviour
             DisplayKO();
             this.StageBackground.color = Color.black;
             this.enabled = false;
+
+            StartCoroutine(ReturnMenu());
         }
         else if (Player1.currentHealth <= 0)
         {
@@ -65,7 +68,16 @@ public class FightManager : MonoBehaviour
             DisplayKO();
             this.StageBackground.color = Color.black;
             this.enabled = false;
+
+            StartCoroutine(ReturnMenu());
         }
+    }
+
+    public IEnumerator ReturnMenu()
+    {
+        yield return new WaitForSeconds(5f);
+
+        SceneManager.LoadScene("MainMenuScene");
     }
 
     public async void DisplayKO()

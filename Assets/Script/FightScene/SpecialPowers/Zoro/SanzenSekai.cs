@@ -74,8 +74,7 @@ public class SanzenSekai : MonoBehaviour
                 pc.GetAudioByName("highPunch").Play();
 
                 enemy.GetComponent<Player2>().TakeDamage(dano);
-                var enemyRB = enemy.GetComponent<Rigidbody2D>();
-                enemyRB.AddForce(new Vector2(20f * enemyController.ImpulseDirection, 0f), ForceMode2D.Impulse);
+                enemy.GetComponent<Rigidbody2D>().AddForce(new Vector2(3f * pc.ImpulseDirection, 0f), ForceMode2D.Impulse);
 
                 var enemyAnimator = enemy.GetComponent<Animator>();
                 enemyAnimator.SetTrigger("Cair");

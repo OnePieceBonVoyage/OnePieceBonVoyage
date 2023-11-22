@@ -31,7 +31,7 @@ public class FireballThrower : MonoBehaviour
     {
         animacao.SetTrigger("Power");
         fireballPrefab.GetComponent<Fireball>().author = pc;
-        fireballPrefab.GetComponent<Fireball>().direction = 1f;
+        fireballPrefab.GetComponent<Fireball>().direction = -pc.ImpulseDirection;
         Vector3 fireballPosition = transform.position;
         fireballPosition.y += 1.5f;
         Instantiate(fireballPrefab, fireballPosition, Quaternion.identity);
